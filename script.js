@@ -1,1 +1,3 @@
-alert ("HI");
+function FindAtDB(){
+    window.location.reload();
+}
