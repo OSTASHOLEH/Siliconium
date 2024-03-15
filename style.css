@@ -140,3 +140,33 @@ z-index: 8;
     font-family: 'Courier New', Courier, monospace;
     cursor: default;
 }
+.IC_photo{
+    width: 30vw;
+    
+}
+.IC_name{
+    color: #021f0d;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-left: 45vw;
+    z-index: 13;
+    position: relative;
+}
+.IC_discription{
+    color: #021f0d;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-left: 45vw;
+    z-index: 13;
+    position: relative;
+}
+.link{
+    margin-top: 10vh;
+    margin-left: 45vw;
+    z-index: 13;
+    position: relative;
+}
