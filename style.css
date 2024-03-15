@@ -135,3 +135,8 @@ z-index: 8;
     object-fit: contain;
     width:8vw;
 }
+#most_popular{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: default;
+}
