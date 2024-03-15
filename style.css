@@ -3,7 +3,7 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     background: linear-gradient(to bottom right, #099a40 11%, #ffffff);
     background-repeat: no-repeat;
@@ -35,13 +35,21 @@ body{
     display: block;
     z-index: 10;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
     
 }
 .content_tile{
     width: auto;
-    height: auto;
+    height: fit-content;
     background-color: #b5e1c6;
     margin: 30px;
+    display: flex;
+    border-radius: 5px;
+    color: #04451d;
+}
+.content_tile:hover{
+    background-color: #29603e;
+    color: #7affad;
 }
 .search-container {
     display: absolute;
@@ -82,31 +90,20 @@ position: absolute;
 left: 0vh;
 z-index: 8;
 }
-#tyle_1{
-    color: #04451d;
-}
-#tyle_1:hover{
-    background-color: #043e1a;
-    color: #b5e1c6;
-}
-#tyle_2{
-    color: #04451d;
-}
-#tyle_2:hover{
-    background-color: #29603e;
-    color: #7affad;
-}
 .content_title{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
+    margin-left: 5vw;
 }
 .content_dicription{
     font-size: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     text-align: center;
+    margin-left: 5vw;
+    margin-top: 5vh;
 }
 .logo{
     position: absolute;
@@ -133,4 +130,8 @@ z-index: 8;
 }
 .side_text:hover{
     color:#7affad;
+}
+.tile_img{
+    object-fit: contain;
+    width:8vw;
 }
