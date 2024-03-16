@@ -81,7 +81,7 @@ body{
   }
   
   .search-button:hover {
-    background-color:#C0C0C0 ; 
+    background-color:rgba(0, 0, 0, 0.3) ; 
   }
 .sidebar{
 width: 12%;
