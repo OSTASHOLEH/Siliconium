@@ -9,48 +9,47 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="logo"></div>
+    <div class="logo" onclick="window.location.href='index.html'"></div>
     <div class="footer">
         <div class="search-container">
-            <input type="text" placeholder="Search..." class="search-bar">
+            <input type="text" placeholder="Search..." class="search-bar" id="search_input">
             <button type="submit" class="search-button" onclick="FindAtDB()">🔍</button>
           </div>
           
     </div>
     <div class="basement"></div>
     <div class="sidebar">
-        <p class="side_text" id="first_side_text" onclick="window.location.href='template.html'">SN7400</p>
-        <p class="side_text">SN7402</p>
-        <p class="side_text">SN7404</p>
-        <p class="side_text">SN7404</p>
-        <p class="side_text">SN74198</p>
-        <p class="side_text">SN7411</p>
-        <p class="side_text">SN7432</p>
+        <p class="side_text" id="first_side_text" onclick="LoadPage('sn7400n')">SN7400</p>
+        <p class="side_text" onclick="LoadPage('sn7402n')">SN7402</p>
+        <p class="side_text" onclick="LoadPage('sn7404n')">SN7404</p>
+        <p class="side_text" onclick="LoadPage('sn74198n')">SN74198</p>
+        <p class="side_text" onclick="LoadPage('sn7411n')">SN7411</p>
+        <p class="side_text" onclick="LoadPage('sn74ls32n')">SN7432</p>
     </div>
     <div class="content">
         <h1 id="most_popular">Most Popular</h1>
-        <div class="content_tile">
+        <div class="content_tile" onclick="LoadPage('sn7402n')">
             <img src="images/sn7402n.jpg" alt="sn7402n" class="tile_img">
             <p class="content_title">SN7402N</p>
             <p class="content_dicription">2-INPUT POSITIVE-NOR GATES</p>
         </div>
-        <div class="content_tile">
+        <div class="content_tile" onclick="LoadPage('sn7474n')">
             <img src="images/sn7474n.jpg" alt="sn7474n" class="tile_img">
             <p class="content_title">SN7474N</p>
             <p class="content_dicription">DUAL D-TYPE POSITIVE-EDGE-TRIGGERED FLIP-FLIP-FLOPS WITH PRESET AND CLEAR </p>
         </div>
-        <div class="content_tile" onclick="window.location.href='template.html'">
+        <div class="content_tile" onclick="LoadPage('sn7400n')">
             <img src="images/sn7400n.jpg" alt="sn7400n" class="tile_img">
             <p class="content_title">SN7400N</p>
             <p class="content_dicription">2-INPUT POSITIVE-NAND GATES</p>
         </div>
-        <div class="content_tile">
-            <img src="images/snl74s32.jpg" alt="sn74ls32" class="tile_img">
+        <div class="content_tile" onclick="LoadPage('sn74ls32n')">
+            <img src="images/sn74ls32n.jpg" alt="sn74ls32" class="tile_img">
             <p class="content_title">SN74LS32N</p>
             <p class="content_dicription">2-INPUT POSITIVE OR GATES</p>
         </div>
-        <div class="content_tile">
-            <img src="images/sn74198.jpg" alt="sn74198n" class="tile_img">
+        <div class="content_tile" onclick="LoadPage('sn74198n')">
+            <img src="images/sn74198n.jpg" alt="sn74198n" class="tile_img">
             <p class="content_title">SN74198N</p>
             <p class="content_dicription">8-BIT SHIFT REGISTER</p>
         </div>
