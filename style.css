@@ -171,3 +171,105 @@ z-index: 8;
     z-index: 13;
     position: relative;
 }
+@media (max-width: 600px) {
+    .content {
+        width: 100%;
+        left: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .content_title {
+        font-size: 20px;
+    }
+    .content_description {
+        font-size: 8px;
+    }
+    .search-container{
+        margin-left: 20%;
+    }
+    .IC_name,
+    .IC_discription {
+    overflow-y: auto;
+    overflow-x: auto; 
+    max-width: 40vw;
+    max-height: 40vh;
+    font-size: 10px; 
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        width: 75%;
+        left: 12.5%;
+    }
+    
+    .sidebar {
+        width: 20%;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    .content_title {
+        font-size: 25px;
+    }
+    .content_description {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .content {
+        width: 70%;
+        left: 15%;
+    }
+    
+    .sidebar {
+        width: 15%;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .content_title {
+        font-size: 28px;
+    }
+    .content_description {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1401px) {
+    .content {
+        width: 60%;
+        left: 20%;
+    }
+    .sidebar {
+        width: 10%;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .content_title {
+        font-size: 30px;
+    }
+    .content_description {
+        font-size: 14px;
+    }
+}
+.IC_name,
+.IC_discription {
+    overflow-y: auto; 
+    max-width: 40vw;
+    max-height: 600px; 
+}
