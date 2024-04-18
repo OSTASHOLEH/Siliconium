@@ -1,0 +1,7 @@
+74ALS00 provides x4 independent 2-input NAND gates
+performing the Boolean function Y = A • B or Y = A + B.
+The device is fabricated using a 1.5μm 40V Bipolar
+process. Internal circuitry comprises of 3 stages and
+includes buffered outputs for high noise immunity and
+stability. All inputs are equipped with protection circuits
+against static discharge and transient excess voltage.

@@ -161,12 +161,11 @@ z-index: 8;
     font-family: sans-serif;
     font-size: large;
     font-weight: bold;
-    margin-top: 10vh;
+    margin-top: 0vh;
     margin-left: 50vw;
     z-index: 13;
     position: relative;
     overflow-x: scroll;
-    width: 30vw;
 }
 .link{
     margin-left: 1vw;
@@ -285,4 +284,13 @@ z-index: 8;
     position: relative;
     z-index: 13;
     margin-left: 17vw;
+}
+.Frame{
+    width: 32vw;
+    height: 45vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: #344e41;
+    background-color: #a3b18a;
+    position: relative;
+    
 }
