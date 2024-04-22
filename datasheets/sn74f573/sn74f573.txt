@@ -1,0 +1,27 @@
+These 8-bit latches feature 3-state outputs
+designed specifically for driving highly capacitive
+or relatively low-impedance loads. They are
+particularly suitable for implementing buffer
+registers, I/O ports, bidirectional bus drivers, and
+working registers.
+The eight latches of the ′F573 are transparent
+D-type latches. While the latch enable (LE) input
+is high, the Q outputs follow the data (D) inputs.
+When the latch enable is taken low, the Q outputs
+are latched at the logic levels set up at the D
+inputs.
+A buffered output enable (OE) input can be used
+to place the eight outputs in either a normal logic
+
+state (high or low logic levels) or a high-
+impedance state. In the high-impedance state, the
+
+outputs neither load nor drive the bus lines
+significantly. The high-impedance state and
+increased drive provide the capability to drive bus
+lines without need for interface or pullup
+components.
+The output enable (OE) input does not affect the internal operations of the latches. Old data can be retained
+or new data can be entered while the outputs are in the high-impedance state.
+The SN54F573 is characterized for operation over the full military temperature range of –55°C to 125°C. The
+SN74F573 is characterized for operation from 0°C to 70°C.

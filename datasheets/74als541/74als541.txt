@@ -1,0 +1,18 @@
+These octal buffers and line drivers are designed
+to have the performance of the popular
+SN54ALS240A/SN74ALS240A series and, at
+the same time, offer a pinout with inputs and
+outputs on opposite sides of the package. This
+arrangement greatly facilitates printed circuit
+board layout.
+The 3-state control gate is a 2-input NOR gate
+such that, if either output-enable (OE1 or OE2)
+input is high, all eight outputs are in the
+high-impedance state.
+The SN74ALS540 provides inverted data. The
+’ALS541 provide true data at the outputs.
+The -1 versions of SN74ALS540 and
+SN74ALS541 are identical to the standard
+versions, except that the recommended
+maximum IOL is increased to 48 mA. There is no
+-1 version of the SN54ALS541.

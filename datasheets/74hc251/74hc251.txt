@@ -1,0 +1,10 @@
+The 74HC/HCT251 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT251 are the logic implementations of
+single-pole 8-position switches with the state of three
+select inputs (S0, S1, S2) controlling the switch positions.
+Assertion (Y) and negation (Y) outputs are both provided.
+The output enable input (OE) is active LOW.

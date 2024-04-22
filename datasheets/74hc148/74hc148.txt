@@ -1,0 +1,16 @@
+The M54/74HC148 is a high speed CMOS 8-TO-3
+LINE PRIORITY ENCODER fabricated in silicon
+gate C2
+MOS technology.
+It has the same high speed performance for LSTTL
+combined with true CMOS low power consumption.
+The M54/74HC148 encodes eight data lines to
+three-line (4-2-1) binary (octal). Cascading circuitry
+(enable input EI and enable output EO) has been
+provided to allow octal expansion without the need
+for external circuitry. Data inputs are active at the
+low logic level.
+All inputs are equipped with protection circuits
+
+against static discharge and transient excess volt-
+age.

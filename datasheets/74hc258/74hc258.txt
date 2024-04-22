@@ -1,0 +1,18 @@
+The 74HC/HCT258 are high-speed Si-gate CMOS devices
+and are pin compatible with Low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT258 have four identical 2-input multiplexers
+with 3-state outputs, which select 4 bits of data from two
+sources and are controlled by a common data select
+input (S).
+The data inputs from source 0 (1I0 to 4I0) are selected
+when input S is LOW and the data inputs from source 1
+(1I1 to 4I1) are selected when S is HIGH.
+
+Data appears at the outputs (1Y to 4Y) in inverted form
+from the select inputs.
+The ‘258’ is the logic implementation of a 4-pole, 2-position
+switch, where the position of the switch is determined by
+the logic levels applied to S. The outputs are forced to a
+high impedance OFF-state when OE is HIGH.

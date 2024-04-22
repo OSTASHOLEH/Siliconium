@@ -1,0 +1,9 @@
+The ’221 and ’LS221 devices are dual
+multivibrators with performance characteristics
+virtually identical to those of the ’121 devices.
+
+Each multivibrator features a negative-transition-
+triggered input and a positive-transition-triggered
+
+input, either of which can be used as an inhibit
+input.

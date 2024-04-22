@@ -1,0 +1,10 @@
+These data selectors/multiplexers provide full
+binary decoding to select one-of-eight data
+sources. The strobe (G) input must be at a low
+logic level to enable the inputs. A high level at the
+strobe terminal forces the W output high and the
+Y output low.
+The SN54ALS151 is characterized for operation
+over the full military temperature range of –55°C
+to 125°C. The SN74ALS151 and SN74AS151 are
+characterized for operation from 0°C to 70°C.

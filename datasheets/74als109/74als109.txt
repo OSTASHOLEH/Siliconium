@@ -1,0 +1,14 @@
+The 74ALS109A is a dual positive edge-triggered JK-type flip-flop
+featuring individual J, K, clock, set, and reset inputs; also true and
+complementary outputs. Set (SD) and reset (RD) are asynchronous
+active-Low inputs and operate independently of the clock (CP) input.
+The J and K are edge-triggered inputs which control the state
+changes of the flip-flops as described in the function table. Clock
+triggering occurs at a voltage level and is not directly related to the
+transition time of the positive-going pulse. The J and K inputs must
+be stable just one setup time prior to the Low-to-High transition of
+the clock for predictable operation. The JK design allows operation
+as a D flip-flop by tying J and K inputs together. Although the clock
+input is level sensitive, the positive transition of the clock pulse
+between the 0.8V and 2.0V levels should be equal to or less than
+the clock to output delay time for reliable operation.

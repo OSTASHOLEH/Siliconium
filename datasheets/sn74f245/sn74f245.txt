@@ -1,0 +1,17 @@
+These octal bus transceivers are designed for
+asynchronous communication between data
+buses. The devices transmit data from the A bus
+to the B bus or from the B bus to the A bus
+depending upon the logic level at the
+direction-control (DIR) input. The output enable
+(OE) input can be used to disable the device so the
+buses are effectively isolated.
+The SN74F245 is available in TI’s shrink
+small-outline package (DB), which provides the
+same I/O pin count and functionality of standard
+small-outline packages in less than half the
+printed-circuit-board area.
+The SN54F245 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F245 is characterized for
+operation from 0°C to 70°C.

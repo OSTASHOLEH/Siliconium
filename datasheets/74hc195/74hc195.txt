@@ -1,0 +1,30 @@
+The 74HC/HCT195 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT195 performs serial, parallel,
+serial-to-parallel or parallel-to-serial data transfer at very
+high speeds. The “195” operates on two primary modes:
+shift right (Qo→Q1) and parallel load, which are controlled
+
+by the state of the parallel load enable (PE) input. Serial
+data enters the first flip-flop (Q0) via the J and K inputs
+when the PE input is HIGH and shifted one bit in the
+direction Q0 → Q1 → Q2 → Q3 following each
+LOW-to-HIGH clock transition. The J and K inputs provide
+the flexibility of the JK type input for special applications
+and by tying the pins together, the simple D-type input for
+general applications. The “195” appears as four common
+clocked D flip-flops when the PE input is LOW.
+After the LOW-to-HIGH clock transition, data on the
+parallel inputs (D0 to D3) is transferred to the respective
+Q0 to Q3 outputs. Shift left operation (Q3 → Q2) can be
+achieved by tying the Qn outputs to the Dn-1 inputs and
+holding the PE input LOW.
+All parallel and serial data transfers are synchronous,
+occurring after each LOW-to-HIGH clock transition.
+There is no restriction on the activity of the J, K, Dn and
+PE inputs for logic operation other than the set-up and
+hold time requirements. A LOW on the asynchronous
+master reset (MR) input sets all Q outputs LOW,
+independent of any other input condition.

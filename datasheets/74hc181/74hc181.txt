@@ -1,0 +1,55 @@
+The 74HC/HCT181 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT181 are 4-bit high-speed parallel
+Arithmetic Logic Units (ALU). Controlled by the four
+function select inputs (S0 to S3) and the mode control input
+(M), they can perform all the 16 possible logic operations
+or 16 different arithmetic operations on active HIGH or
+active LOW operands (see function table).
+When the mode control input (M) is HIGH, all internal
+carries are inhibited and the device3 performs logic
+operations on the individual bits as listed. When M is LOW,
+the carries are enabled and the “181” performs arithmetic
+operations on the two 4-bit words. The “181” incorporates
+full internal carry look-ahead and provides for either ripple
+carry between devices using the Cn+4 output, or for carry
+look-ahead between packages using the carry
+propagation (P) and carry generate (G) signals. P and
+G are not affected by carry in.
+
+When speed requirements are not stringent, it can be used
+in a simple ripple carry mode by connecting the carry
+output (Cn+4) signal to the carry input (Cn) of the next unit.
+For high-speed operation the device is used in conjunction
+with the “182” carry look-ahead circuit. One carry
+look-ahead package is required for each group of four
+“181” devices. Carry look-ahead can be provided at
+various levels and offers high-speed capability over
+extremely long word lengths.
+The comparator output (A=B) of the device goes HIGH
+when all four function outputs (F0 to F3) are HIGH and can
+be used to indicate logic equivalence over 4 bits when the
+unit is in the subtract mode. A=B is an open collector
+output and can be wired-AND with other A=B outputs to
+give a comparison for more than 4 bits. The open drain
+output A=B should be used with an external pull-up
+resistor in order to establish a logic HIGH level. The A=B
+signal can also be used with the Cn+4 signal to indicate
+A > B and A < B.
+The function table lists the arithmetic operations that are
+performed without a carry in. An incoming carry adds a one
+to each operation. Thus, select code LHHL generates
+A minus B minus 1 (2s complement notation) without a
+carry in and generates A minus B when a carry is applied.
+Because subtraction is actually performed by
+complementary addition (1s complement), a carry out
+means borrow; thus, a carry is generated when there is no
+under-flow and no carry is generated when there is
+underflow.
+As indicated, the “181” can be used with either active LOW
+inputs producing active LOW outputs or with active HIGH
+inputs producing active HIGH outputs.
+For either case the table lists the operations that are
+performed to the operands.

@@ -1,0 +1,13 @@
+The 74HC/HCT4066 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4066” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+
+The 74HC/HCT4066 have four independent analog
+switches. Each switch has two input/output terminals (nY,
+nZ) and an active HIGH enable input (nE). When nE is
+LOW the belonging analog switch is turned off.
+The “4066” is pin compatible with the “4016” but exhibits a
+much lower “ON” resistance. In addition, the “ON”
+resistance is relatively constant over the full input signal
+range.

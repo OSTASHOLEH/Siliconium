@@ -1,0 +1,14 @@
+These data selectors/multiplexers contain
+inverters and drivers to supply full data selection
+to the four output gates. A separate strobe (G)
+input is provided. A 4-bit word is selected from one
+of two sources and is routed to the four outputs.
+The ′ALS157A and SN74AS157 present true
+data. The ′ALS158 and SN74AS158 present
+inverted data to minimize propagation delay time.
+The SN54ALS157A and SN54ALS158 are
+characterized for operation over the full military
+temperature range of –55°C to 125°C. The
+SN74ALS157A, SN74ALS158, SN74AS157, and
+SN74AS158 are characterized for operation from
+0°C to 70°C.

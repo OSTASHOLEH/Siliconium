@@ -1,0 +1,10 @@
+The 74HC/HCT240 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT240 are octal inverting buffer/line drivers
+with 3-state outputs. The 3-state outputs are controlled by
+the output enable inputs 1OE and 2OE. A HIGH on nOE
+causes the outputs to assume a high impedance
+OFF-state. The “240” is identical to the “244” but has
+inverting outputs.

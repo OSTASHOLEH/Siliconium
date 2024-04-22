@@ -1,0 +1,12 @@
+The 74ALS138 decoder accepts three binary weighted inputs (A0,
+A1, A2) and when enabled, provides eight mutually exclusive,
+active-Low outputs (Q0 – Q7). The device features three Enable
+inputs; two active-Low (E0, E1) and one active-High (E2). Every
+output will be High unless E0 and E1 are Low and E2 is High. This
+multiple enable function allows easy parallel expansion of the device
+to 1-of-32 (5 lines to 32 lines) decoder with just four 74ALS138s and
+one inverter. The device can be used as an eight output
+demultiplexer by using one of the active-Low Enable inputs as the
+data input and the remaining Enable inputs as strobes. Enable
+inputs not used must be permanently tied to their appropriate
+active-High or active-Low state.

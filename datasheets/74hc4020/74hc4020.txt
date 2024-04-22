@@ -1,0 +1,14 @@
+The 74HC/HCT4020 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4020” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+
+The 74HC/HCT4020 are 14-stage binary ripple counters
+with a clock input (CP), an overriding asynchronous
+master reset input (MR) and twelve fully buffered parallel
+outputs (Q0, Q3 to Q13).
+The counter is advanced on the HIGH-to-LOW transition of
+CP.
+A HIGH on MR clears all counter stages and forces all
+outputs LOW, independent of the state of CP.
+Each counter stage is a static toggle flip-flop.

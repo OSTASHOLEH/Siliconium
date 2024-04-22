@@ -1,0 +1,6 @@
+The 74HC/HCT126 are high-speed Si-gate CMOS devices and are pin compatible with low power Schottky TTL (LSTTL).
+They are specified in compliance with JEDEC standard no. 7A.
+The HC/HCT126 are four non-inverting buffer/line drivers with 3-state outputs. The 3-state outputs (nY) are controlled by
+the output enable input (nOE). A LOW at nOE causes the outputs to assume a HIGH impedance OFF-state.
+The “126” is identical to the “125” but has active HIGH enable inputs.
+GND = 0 V; Tamb = 25 °C; tr = tf = 6 ns

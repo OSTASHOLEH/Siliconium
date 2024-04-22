@@ -1,0 +1,7 @@
+These positive-edge-triggered flip-flops utilize TTL circuitry to implement D-type flip-flop logic. All have a
+direct-clear (CLR) input. The ’ALS175 and ’AS175B feature complementary outputs from each flip-flop.
+Information at the data (D) inputs meeting the setup-time requirements is transferred to the outputs on the
+positive-going edge of the clock pulse. Clock triggering occurs at a particular voltage level and is not directly
+related to the transition time of the positive-going pulse. When the clock (CLK) input is at either the high or low
+level, the D-input signal has no effect at the output.
+These circuits are fully compatible for use with most TTL circuits.

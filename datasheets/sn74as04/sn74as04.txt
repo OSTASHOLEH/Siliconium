@@ -1,0 +1,8 @@
+These devices contain six independent hex
+inverters. They perform the Boolean function
+Y = A.
+The SN54ALS04B and SN54AS04 are
+characterized for operation over the full military
+temperature range of –55°C to 125°C. The
+SN74ALS04B and SN74AS04 are characterized
+for operation from 0°C to 70°C.

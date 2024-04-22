@@ -1,0 +1,16 @@
+The MC54/74HC244A is identical in pinout to the LS244. The device
+inputs are compatible with standard CMOS outputs; with pullup resistors,
+they are compatible with LSTTL outputs.
+This octal noninverting buffer/line driver/line receiver is designed to be
+used with 3–state memory address drivers, clock drivers, and other
+bus–oriented systems. The device has noninverting outputs and two
+active–low output enables.
+The HC244A is similar in function to the HC240A and HC241A.
+• Output Drive Capability: 15 LSTTL Loads
+• Outputs Directly Interface to CMOS, NMOS, and TTL
+• Operating Voltage Range: 2 to 6 V
+• Low Input Current: 1 μA
+• High Noise Immunity Characteristic of CMOS Devices
+• In Compliance with the Requirements Defined by JEDEC Standard
+No. 7A
+• Chip Complexity: 136 FETs or 34 Equivalent Gates

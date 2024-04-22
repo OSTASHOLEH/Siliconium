@@ -1,0 +1,25 @@
+The 74HC/HCT373 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT373 are octal D-type transparent latches
+featuring separate D-type inputs for each latch and 3-state
+outputs for bus oriented applications. A latch enable (LE)
+
+input and an output enable (OE) input are common to all
+latches.
+The “373” consists of eight D-type transparent latches with
+3-state true outputs. When LE is HIGH, data at the Dn
+inputs enters the latches. In this condition the latches are
+transparent, i.e. a latch output will change state each time
+its corresponding D-input changes.
+When LE is LOW the latches store the information that was
+present at the D-inputs a set-up time preceding the
+HIGH-to-LOW transition of LE. When OE is LOW, the
+contents of the 8 latches are available at the outputs.
+When OE is HIGH, the outputs go to the high impedance
+OFF-state. Operation of the OE input does not affect the
+state of the latches.
+The “373” is functionally identical to the “533”, “563” and
+“573”, but the “563” and “533” have inverted outputs and
+the “563” and “573” have a different pin arrangement.

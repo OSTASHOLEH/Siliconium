@@ -1,0 +1,38 @@
+The 74HC/HCT40102 are high-speed Si-gate CMOS
+devices and are pin compatible with the “40102” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC/HCT40102 consist each of an 8-bit
+synchronous down counter with a single output which is
+active when the internal count is zero. The “40102” is
+configured as two cascaded 4-bit BCD counters and has
+control inputs for enabling or disabling the clock (CP), for
+clearing the counter to its maximum count, and for
+presetting the counter either synchronously or
+asynchronously. All control inputs and the terminal count
+output (TC) are active-LOW logic.
+In normal operation, the counter is decremented by one
+count on each positive-going transition of the clock (CP).
+Counting is inhibited when the terminal enable input (TE)
+is HIGH. The terminal count output (TC) goes LOW when
+the count reaches zero if TE is LOW, and remains LOW for
+one full clock period.
+
+When the synchronous preset enable input (PE) is LOW,
+data at the jam input (P0 to P7) is clocked into the counter
+on the next positive-going clock transition regardless of the
+state of TE. When the asynchronous preset enable input
+(PL) is LOW, data at the jam input (P0 to P7) is
+asynchronously forced into the counter regardless of the
+state of PE, TE, or CP. The jam inputs (P0 to P7) represent
+two 4-bit BCD words.
+When the master reset input (MR) is LOW, the counter is
+asynchronously cleared to its maximum count (decimal
+99) regardless of the state of any other input. The
+precedence relationship between control inputs is
+indicated in the function table.
+If all control inputs except TE are HIGH at the time of zero
+count, the counters will jump to the maximum count, giving
+a counting sequence of 100 clock pulses long.
+The “40102” may be cascaded using the TE input and the
+TC output, in either a synchronous or ripple mode.

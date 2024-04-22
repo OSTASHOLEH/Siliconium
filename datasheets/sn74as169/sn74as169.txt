@@ -1,0 +1,35 @@
+These synchronous 4-bit up/down binary
+presettable counters feature an internal carry
+look-ahead circuitry for cascading in high-speed
+counting applications. Synchronous operation is
+provided by having all flip-flops clocked
+simultaneously so that the outputs change
+coincident with each other when so instructed by
+the count-enable (ENP, ENT) inputs and internal
+gating. This mode of operation eliminates the
+output counting spikes normally associated with
+asynchronous (ripple-clock) counters. A buffered
+clock (CLK) input triggers the four flip-flops on the
+rising (positive-going) edge of the clock waveform.
+These counters are fully programmable; that is,
+they may be preset to either level. The load-input
+circuitry allows loading with the carry-enable
+output of cascaded counters. Because loading is
+synchronous, setting up a low level at the load
+(LOAD) input disables the counter and causes the
+outputs to agree with the data inputs after the next
+clock pulse.
+The internal carry look-ahead circuitry provides for cascading counters for n-bit synchronous application without
+additional gating. ENP and ENT inputs and a ripple-carry output (RCO) are instrumental in accomplishing this
+function. Both ENP and ENT must be low to count. The direction of the count is determined by the level of the
+up/down (U/D) input. When U/D is high, the counter counts up; when low, it counts down. ENT is fed forward
+to enable RCO. RCO, thus enabled, produces a low-level pulse while the count is zero (all inputs low) counting
+down or maximum (15) counting up. This low-level overflow ripple-carry pulse can be used to enable successive
+cascaded stages. Transitions at ENP or ENT are allowed regardless of the level of the clock input. All inputs
+are diode clamped to minimize transmission-line effects, thereby simplifying system design.
+These counters feature a fully independent clock circuit. Changes at control inputs (ENP, ENT, LOAD, or U/D)
+that modify the operating mode have no effect on the contents of the counter until clocking occurs. The function
+of the counter (whether enabled, disabled, loading, or counting) is dictated solely by the conditions meeting the
+stable setup and hold times.
+The SN54ALS169B and SN54AS169A are characterized for operation over the full military temperature range
+of –55°C to 125°C. The SN74ALS169B and SN74AS169A are characterized for operation from 0°C to 70°C.

@@ -1,0 +1,13 @@
+The 74HC137 is a high-speed Si-gate CMOS device and is pin compatible with low power
+Schottky TTL (LSTTL). The 74HC137 is specified in compliance with JEDEC
+standard no. 7A.
+The 74HC137 is a 3-to-8 line decoder, demultiplexer with latches at the three address
+inputs (An). The 74HC137 essentially combines the 3-to-8 decoder function with a 3-bit
+storage latch. When the latch is enabled (LE = LOW), the 74HC137 acts as a 3-to-8 active
+LOW decoder. When the latch enable (LE) goes from LOW-to-HIGH, the last data present
+at the inputs before this transition, is stored in the latches. Further address changes are
+ignored as long as LE remains HIGH.
+The output enable input (E1 and E2) controls the state of the outputs independent of the
+address inputs or latch operation. All outputs are HIGH unless E1 is LOW and E2 is HIGH.
+The 74HC137 is ideally suited for implementing non-overlapping decoders in 3-state
+systems and strobed (stored address) applications in bus oriented systems.

@@ -1,0 +1,17 @@
+The 74HC/HCT154 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT154 decoders accept four active HIGH
+binary address inputs and provide 16 mutually exclusive
+active LOW outputs.
+The 2-input enable gate can be used to strobe the decoder
+to eliminate the normal decoding “glitches” on the outputs,
+or it can be used for the expansion of the decoder.
+The enable gate has two AND’ed inputs which must be
+LOW to enable the outputs.
+The “154” can be used as a 1-to-16 demultiplexer by using
+one of the enable inputs as the multiplexed data input.
+When the other enable is LOW, the addressed output will
+follow the state of the applied data.

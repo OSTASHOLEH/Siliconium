@@ -1,0 +1,21 @@
+The 74HC/HCT109 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT109 are dual positive-edge triggered, JK
+flip-flops with individual J, K inputs, clock (CP) inputs, set
+
+(SD) and reset (RD) inputs; also complementary Q and Q
+outputs.
+The set and reset are asynchronous active LOW inputs
+and operate independently of the clock input.
+The J and K inputs control the state changes of the
+flip-flops as described in the mode select function table.
+The J and K inputs must be stable one set-up time prior to
+the LOW-to-HIGH clock transition for predictable
+operation.
+The JK design allows operation as a D-type flip-flop by
+tying the J and K inputs together.
+Schmitt-trigger action in the clock input makes the circuit
+highly tolerant to slower clock rise and fall times.
+GND = 0 V; Tamb = 25 °C; tr = tf = 6 ns

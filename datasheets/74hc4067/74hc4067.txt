@@ -1,0 +1,21 @@
+The 74HC/HCT4067 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4067” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+
+The 74HC/HCT4067 are 16-channel analog
+multiplexers/demultiplexers with four address inputs (S0 to
+S3) , an active LOW enable input (E), sixteen independent
+inputs/outputs (Y0 to Y15) and a common input/output (Z).
+The ”4067” contains sixteen bidirectional analog switches,
+each with one side connected to an independent
+input/output (Y0 to Y15) and the other side connected to a
+common input/output (Z).
+With E LOW, one of the sixteen switches is selected (low
+impedance ON-state) by S0 to S3. All unselected switches
+are in the high impedance OFF-state. With E HIGH, all
+switches are in the high impedance OFF-state,
+independent of S0 to S3.
+The analog inputs/outputs (Y0 to Y15, and Z) can swing
+between VCC as a positive limit and GND as a negative
+limit. VCC to GND may not exceed 10 V.

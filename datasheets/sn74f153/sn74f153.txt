@@ -1,0 +1,9 @@
+These data selectors/multiplexers contain
+inverters and drivers to supply full binary decoding
+data selection to the AND-OR gates. Separate
+strobe (G) inputs are provided for each of the two
+4-line sections.
+The SN54F153 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F153 is characterized for
+operation from 0°C to 70°C.

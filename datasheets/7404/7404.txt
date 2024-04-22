@@ -1,0 +1,1 @@
+These devices contain six independent inverters . The SN5404 , SN54LS04 , and SN54504 are characterized for operation over the full military temperature range of -55 ° C to 125 ° C . The SN7404 , SN74LS04 , and SN74S04 are characterized for operation from 0 ° C to 70 ° C .

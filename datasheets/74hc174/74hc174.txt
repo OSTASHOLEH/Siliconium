@@ -1,0 +1,18 @@
+The 74HC/HCT174 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT174 have six edge-triggered D-type
+flip-flops with individual D inputs and Q outputs. The
+common clock (CP) and master reset (MR) inputs load and
+reset (clear) all flip-flops simultaneously.
+The register is fully edge-triggered. The state of each D
+input, one set-up time prior to the LOW-to-HIGH clock
+transition, is transferred to the corresponding output of the
+flip-flop.
+A LOW level on the MR input forces all outputs LOW,
+independently of clock or data inputs.
+The device is useful for applications requiring true outputs
+only and clock and master reset inputs that are common to
+all storage elements.

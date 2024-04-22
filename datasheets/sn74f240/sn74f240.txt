@@ -1,0 +1,24 @@
+These octal buffers and line drivers are designed
+specifically to improve both the performance and
+density of 3-state memory address drivers, clock
+drivers, and bus-oriented receivers and
+transmitters. Taken together with the ′F241 and
+′F244, these devices provide the choice of
+selected combinations of inverting and
+noninverting outputs, symmetrical OE (active-low
+output-enable) inputs, and complementary OE
+and OE inputs.
+The ′F240 is organized as two 4-bit buffers/line
+drivers with separate output enable (OE) inputs.
+When OE is low, the device passes data from the
+A inputs to the Y outputs. When OE is high, the
+outputs are in the high-impedance state.
+The SN74F240 is available in TI’s shrink
+small-outline package (DB), which provides the
+same I/O pin count and functionality of standard
+small-outline packages in less than half the
+printed-circuit-board area.
+The SN54F240 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F240 is characterized for
+operation from 0°C to 70°C.

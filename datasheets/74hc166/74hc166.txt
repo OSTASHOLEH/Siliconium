@@ -1,0 +1,26 @@
+The 74HC/HCT166 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT166 are 8-bit shift registers which have a
+fully synchronous serial or parallel data entry selected by
+
+an active LOW parallel enable (PE) input. When PE is
+LOW one set-up time prior to the LOW-to-HIGH clock
+transition, parallel data is entered into the register. When
+PE is HIGH, data is entered into the internal bit position Q0
+from serial data input (Ds), and the remaining bits are
+shifted one place to the right (Q0 → Q1 → Q2, etc.) with
+each positive-going clock transition.
+This feature allows parallel-to-serial converter expansion
+by tying the Q7 output to the Ds input of the succeeding
+stage.
+The clock input is a gated-OR structure which allows one
+input to be used as an active LOW clock enable (CE) input.
+The pin assignment for the CP and CE inputs is arbitrary
+and can be reversed for layout convenience. The
+LOW-to-HIGH transition of input CE should only take place
+while CP is HIGH for predictable operation. A LOW on the
+master reset (MR) input overrides all other inputs and
+clears the register asynchronously, forcing all bit positions
+to a LOW state.

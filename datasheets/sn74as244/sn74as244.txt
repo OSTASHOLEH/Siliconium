@@ -1,0 +1,19 @@
+These octal buffers and line drivers are designed
+specifically to improve both the performance and
+density of 3-state memory address drivers, clock
+
+drivers, and bus-oriented receivers and transmit-
+ters. Taken together with the ’ALS240A,
+
+’ALS241A, ’AS240, and ’AS241, these devices
+provide the choice of selected combinations of
+inverting outputs, symmetrical G (active-low input
+control) inputs, and complementary G and G
+inputs.
+The –1 version of the SN74ALS244B is identical
+to the standard version except that the
+recommended maximum IOL is increased to
+48 mA. There is no –1 version of the
+SN54ALS244B.
+The SN54ALS244B and SN54AS244 are characterized for operation over the full military temperature range
+of –55°C to 125°C. The SN74ALS244B and SN74AS244 are characterized for operation from 0°C to 70°C.

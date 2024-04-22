@@ -1,0 +1,18 @@
+The 74HC/HCT280 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT280 are 9-bit parity generators or checkers
+commonly used to detect errors in high-speed data
+
+transmission or data retrieval systems. Both even and odd
+parity outputs are available for generating or checking
+even or odd parity up to 9 bits.
+The even parity output (∑E) is HIGH when an even number
+of data inputs (I0 to I8) are HIGH. The odd parity output (∑0)
+is HIGH when an odd number of data inputs are HIGH.
+Expansion to larger word sizes is accomplished by tying
+the even outputs (∑E) of up to nine parallel devices to the
+data inputs of the final stage. For a single-chip 16-bit
+even/odd parity generator/checker, see
+PC74HC/HCT7080.

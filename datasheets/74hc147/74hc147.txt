@@ -1,0 +1,8 @@
+The 74HC14 and 74HCT14 are high-speed Si-gate CMOS
+devices and are pin compatible with low power Schottky
+TTL (LSTTL). They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC14 and 74HCT14 provide six inverting buffers
+with Schmitt-trigger action. They are capable of
+transforming slowly changing input signals into sharply
+defined, jitter-free output signals.

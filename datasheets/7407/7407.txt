@@ -1,0 +1,14 @@
+These TTL hex buffers/drivers feature
+high-voltage open-collector outputs for interfacing
+with high-level circuits (such as MOS) or for
+driving high-current loads (such as lamps or
+relays) and also are characterized for use as
+buffers for driving TTL inputs. The SN5407 and
+SN7407 have minimum breakdown voltages of
+30 V, and the SN5417 and SN7417 have
+minimum breakdown voltages of 15 V. The
+maximum sink current is 30 mA for the SN5407
+and SN5417 and 40 mA for the SN7407 and
+SN7417.
+These devices perform the Boolean function
+Y = A in positive logic.

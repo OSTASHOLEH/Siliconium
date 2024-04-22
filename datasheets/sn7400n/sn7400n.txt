@@ -1,0 +1,2 @@
+These devices contain four independent 2-input NAND gates. The devices perform the Boolean function
+Y = A • B or Y = A + B in positive logic.

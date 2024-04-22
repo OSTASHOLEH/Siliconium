@@ -1,0 +1,11 @@
+The 74ALS112A, dual negative edge-triggered JK-type flip-flop
+features individual J, K, clock (CPn), set (SD), and reset (RD)
+inputs, true (Qn) and complementary (Qn) outputs.
+The SD and RD inputs, when Low, set or reset the outputs as shown
+in the function table regardless of the level at the other inputs.
+A High level on the clock (CPn) input enables the J and K inputs and
+data will be accepted. The logic levels at the J and K inputs may be
+allowed to change while the CPn is High and the flip-flop will perform
+according to the function table as long as minimum setup and hold
+times are observed. Output changes are initiated by the High-to-Low
+transition of the CPn.

@@ -1,0 +1,20 @@
+These octal D-type edge-triggered flip-flops
+feature 3-state outputs designed specifically for
+bus driving. They are particularly suitable for
+implementing buffer registers, I/O ports,
+bidirectional bus drivers, and working registers.
+The eight flip-flops enter data on the low-to-high
+transition of the clock (CLK) input. The
+SN74ALS575A, SN54AS575, and SN74AS575
+may be synchronously cleared by taking the clear
+(CLR) input low.
+The output-enable (OE) input does not affect
+internal operations of the flip-flops. Old data can
+be retained or new data can be entered while the
+outputs are in the high-impedance state.
+The SN54ALS574B, SN54AS574, and
+SN54AS575 are characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74ALS574B, SN74ALS575A,
+SN74AS574, and SN74AS575 are characterized
+for operation from 0°C to 70°C.

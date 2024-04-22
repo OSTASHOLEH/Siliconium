@@ -1,0 +1,1 @@
+These devices contain four independent 2 - input AND gates . The SN5408 , SN54LS08 , and SN54S08 are characterized for operation over the full military temperature range of -55 ° C to 125 ° C . The SN7408 , SN74LS08 and SN74S08 are characterized for operation from 0 ° to 70 ° C .

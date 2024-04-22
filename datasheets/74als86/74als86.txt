@@ -1,0 +1,5 @@
+The 74ALS86 contain four independent 2-input Exclusive-OR gates.
+A common application is a true/complement element. If one input is
+held Low, the signal on the other input will be reproduced in true
+form at the output. If one input is held High, the signal on the other
+input will be reproduced inverted at the output.

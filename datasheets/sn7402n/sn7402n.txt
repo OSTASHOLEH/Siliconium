@@ -1,0 +1,1 @@
+These devices contain four independent 2 - input NOR gates . The SN5402 and SN54LS02 are characterized for operation over the full military temperature range of -55 ° C to 125 ° C . The SN7402 and SN74LS02 are characterized for operation from 0 ° C to 70 ° C .

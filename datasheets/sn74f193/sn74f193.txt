@@ -1,0 +1,19 @@
+The SN74F193A is a synchronous, 4-bit binary up/down counter. Synchronous counting operation is provided
+by having all flip-flops clocked simultaneously so that the outputs change coincident with each other when so
+instructed by the steering logic. This mode of operation eliminates the output counting spikes normally
+associated with asynchronous (ripple-clock) counters.
+The outputs of the four flip-flops are triggered on a low-to-high-level transition of either count/clock (UP or
+DOWN) input. The direction of the count is determined by which count input is pulsed while the other count input
+is high.
+All four counters are fully programmable; that is, each output may be preset to either level by placing a low on
+the LOAD input and entering the desired data at the data (D) inputs. The output will change to agree with the
+data inputs independently of the count pulses. This feature allows the counters to be used as modulo-N dividers
+by simply modifying the count length with the preset inputs.
+A high level applied to the clear (CLR) input forces all outputs to the low level. The clear function is independent
+of the count and load inputs.
+These counters were designed to be cascaded without the need for external circuitry. The borrow (BO) output
+produces a low-level pulse while the count is zero (all Q outputs low) and the DOWN input is low. Similarily, the
+carry (CO) output produces a low-level pulse while the count is 15 (all Q outputs high) and the UP input is low.
+The counters can then be easily cascaded by feeding the borrow and carry outputs to the count-down and
+count-up inputs, respectively, of the succeeding counter.
+The SN74F193A is characterized for operation from 0°C to 70°C.

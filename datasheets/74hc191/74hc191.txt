@@ -1,0 +1,64 @@
+The 74HC/HCT191 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT191 are asynchronously presettable 4-bit
+binary up/down counters. They contain four master/slave
+flip-flops with internal gating and steering logic to provide
+asynchronous preset and synchronous count-up and
+count-down operation.
+Asynchronous parallel load capability permits the counter
+to be preset to any desired number. Information present on
+the parallel data inputs (D0 to D3) is loaded into the counter
+and appears on the outputs when the parallel load (PL)
+input is LOW. As indicated in the function table, this
+operation overrides the counting function.
+Counting is inhibited by a HIGH level on the count enable
+(CE) input. When CE is LOW internal state changes are
+initiated synchronously by the LOW-to-HIGH transition of
+the clock input. The up/down (U/D) input signal determines
+the direction of counting as indicated in the function table.
+The CE input may go LOW when the clock is in either
+state, however, the LOW-to-HIGH CE transition must
+occur only when the clock is HIGH. Also, the U/D input
+should be changed only when either CE or CP is HIGH.
+
+Overflow/underflow indications are provided by two types
+of outputs, the terminal count (TC) and ripple clock (RC).
+The TC output is normally LOW and goes HIGH when a
+circuit reaches zero in the count-down mode or reaches
+“15” in the count-up-mode. The TC output will remain
+HIGH until a state change occurs, either by counting or
+presetting, or until U/D is changed. Do not use the TC
+output as a clock signal because it is subject to decoding
+spikes. The TC signal is used internally to enable the
+RC output. When TC is HIGH and CE is LOW, the RC
+output follows the clock pulse (CP). This feature simplifies
+the design of multistage counters as shown in Figs 5
+and 6.
+In Fig.5, each RC output is used as the clock input to the
+next higher stage. It is only necessary to inhibit the first
+stage to prevent counting in all stages, since a HIGH on
+CE inhibits the RC output pulse as indicated in the function
+table. The timing skew between state changes in the first
+and last stages is represented by the cumulative delay of
+the clock as it ripples through the preceding stages. This
+can be a disadvantage of this configuration in some
+applications.
+Fig.6 shows a method of causing state changes to occur
+simultaneously in all stages. The RC outputs propagate
+the carry/borrow signals in ripple fashion and all clock
+inputs are driven in parallel. In this configuration the
+duration of the clock LOW state must be long enough to
+allow the negative-going edge of the carry/borrow signal to
+ripple through to the last stage before the clock goes
+HIGH. Since the RC output of any package goes HIGH
+shortly after its CP input goes HIGH there is no such
+restriction on the HIGH-state duration of the clock.
+In Fig.7, the configuration shown avoids ripple delays and
+their associated restrictions. Combining the TC signals
+from all the preceding stages forms the CE input for a
+given stage. An enable must be included in each carry
+gate in order to inhibit counting. The TC output of a given
+stage it not affected by its own CE signal therefore the
+simple inhibit scheme of Figs 5 and 6 does not apply.

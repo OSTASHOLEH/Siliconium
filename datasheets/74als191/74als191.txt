@@ -1,0 +1,26 @@
+The ’ALS191A are synchronous 4-bit reversible
+up/down binary counters. Synchronous counting
+operation is provided by having all flip-flops
+clocked simultaneously so that the outputs
+change coincidentally with each other when
+instructed by the steering logic. This mode of
+operation eliminates the output counting spikes
+normally associated with asynchronous
+(ripple-clock) counters.
+The outputs of the four flip-flops are triggered on
+a low-to-high-level transition of the clock (CLK)
+input if the count enable (CTEN) input is low. A
+high at CTEN inhibits counting. The direction of
+the count is determined by the level of the
+down/up (D/U) input. When D/U is low, the counter
+counts up, and when D/U is high, the counter
+counts down.
+These counters feature a fully independent clock circuit. Changes at the control inputs (CTEN and D/U) that
+modify the operating mode have no effect on the contents of the counter until clocking occurs. The function of
+the counter is dictated solely by the conditions meeting the stable setup and hold times.
+These counters are fully programmable. Each output can be preset to either level by placing a low on the LOAD
+input and entering the desired data at the data inputs. The output changes to agree with the data inputs
+independently of the level of the clock input. This feature allows the counters to be used as modulo-N dividers
+by simply modifying the count length with the preset inputs.
+CLK, D/U, and LOAD are buffered to lower the drive requirement, which significantly reduces the loading on
+(current required by) clock drivers, for long parallel words.

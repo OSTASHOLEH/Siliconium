@@ -1,0 +1,9 @@
+These devices contain three independent 3-input
+positive-AND gates. They perform the Boolean
+functions Y = A • B • C or Y = A + B + C in positive
+logic.
+The SN54ALS11A and SN54AS11 are
+characterized for operation over the full military
+temperature range of –55°C to 125°C. The
+SN74ALS11A and SN74AS11 are characterized
+for operation from 0°C to 70°C.

@@ -1,0 +1,8 @@
+The 74HC245; 74HCT245 is a high-speed Si-gate CMOS device and is pin compatible
+with Low-Power Schottky TTL (LSTTL).
+The 74HC245; 74HCT245 is an octal transceiver featuring non-inverting 3-state bus
+compatible outputs in both send and receive directions. The 74HC245; 74HCT245
+features an output enable input (OE) for easy cascading and a send/receive input (DIR)
+for direction control. OE controls the outputs so that the buses are effectively isolated.
+The 74HC245; 74HCT245 is similar to the 74HC640; 74HCT640 but has true
+(non-inverting) outputs.

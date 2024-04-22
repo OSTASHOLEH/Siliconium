@@ -1,0 +1,8 @@
+These octal bus transceivers are designed for asynchronous two-way communication between open-collector
+and 3-state buses. The devices transmit data from the A bus (open-collector) to the B bus (3 state) or from the
+B bus to the A bus, depending on the logic level at the direction-control (DIR) input. The output-enable (OE) input
+can be used to disable the device so the buses are isolated.
+The -1 version of SN74ALS638A is identical to the standard version, except that the recommended maximum
+IOL is increased to 48 mA.
+The SN74ALS638A, SN74ALS639A, SN74AS638A, and SN74AS639 are characterized for operation from 0°C
+to 70°C.

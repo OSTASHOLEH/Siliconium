@@ -1,0 +1,16 @@
+These octal buffers/drivers are designed
+specifically to improve both the performance and
+density of 3-state memory address drivers, clock
+drivers, and bus-oriented receivers and
+transmitters. When these devices are used with
+the ’ALS241, ’AS241A, ’ALS244, and ’AS244A
+devices, the circuit designer has a choice of
+selected combinations of inverting and
+noninverting outputs, symmetrical active-low
+output-enable (OE) inputs, and complementary
+OE and OE inputs. These devices feature high
+fan-out and improved fan-in.
+The -1 version of SN74ALS240A is identical to the
+standard version, except that the recommended
+maximum IOL for the -1 version is 48 mA. There is
+no -1 version of the SN54ALS240A.

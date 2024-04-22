@@ -1,0 +1,29 @@
+The 74HC/HCT40105 are high-speed Si-gate CMOS
+devices and are pin compatible with the “40105” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC/HCT40105 are first-in/first-out (FIFO) “elastic”
+storage registers that can store sixteen 4-bit words. The
+“40105” is capable of handling input and output data at
+
+different shifting rates. This feature makes it particularly
+useful as a buffer between asynchronous systems. Each
+word position in the register is clocked by a control flip-flop,
+which stores a marker bit. A “1” signifies that the position’s
+data is filled and a “0” denotes a vacancy in that position.
+The control flip-flop detects the state of the preceding
+flip-flop and communicates its own status to the
+succeeding flip-flop. When a control flip-flop is in the “0”
+state and sees a “1” in the preceding flip-flop, it generates
+a clock pulse that transfers data from the preceding four
+data latches into its own four data latches and resets the
+preceding flip-flop to “0”. The first and last control flip-flops
+have buffered outputs. Since all empty locations “bubble”
+automatically to the input end, and all valid data ripples
+through to the output end, the status of the first control
+flip-flop (data-in ready output - DIR) indicates if the FIFO is
+full, and the status of the last flip-flop (data-out ready
+output - DOR) indicates if the FIFO contains data. As the
+earliest data is removed from the bottom of the data stack
+(output end), all data entered later will automatically ripple
+toward the output.

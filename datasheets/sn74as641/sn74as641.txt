@@ -1,0 +1,8 @@
+These octal bus transceivers are designed for
+asynchronous two-way communication between
+data buses. These devices transmit data from the A bus to the B bus or from the B bus to the A bus, depending
+upon the level at the direction-control (DIR) input. The output-enable (OE) input disables the device so that the
+buses are effectively isolated.
+The -1 versions of the SN74ALS641A and SN74ALS642A are identical to the standard versions, except that
+the recommended maximum IOL is increased to 48 mA in the -1 versions.
+The SN74ALS641A, SN74ALS642A, and SN74AS641 are characterized for operation from 0°C to 70°C.

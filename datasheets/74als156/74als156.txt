@@ -1,0 +1,12 @@
+The 74ALS157 is a quad 2-input multiplexer which selects 4 bits of
+data from one of two sources under the control of a common select
+input (S). The enable input (E) is active when Low. When E is High,
+all of the outputs (Yn) are forced Low regardless of all other input
+conditions.
+Moving data from two registers to a common output bus is a typical
+use of the 74ALS157. The state of the select input determines the
+particular register from which data comes.
+The device is the logic implementation of 4-pole, 2-position switch
+where the position of the switch is determined by the logic levels
+supplied to the select input. The 74ALS158 is similar but has
+inverting outputs (Yn).

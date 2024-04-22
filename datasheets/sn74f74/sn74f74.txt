@@ -1,0 +1,18 @@
+These devices contain two independent positive-
+edge-triggered D-type flip-flops. A low level at the
+
+preset (PRE) or clear (CLR) inputs sets or resets
+the outputs regardless of the levels of the other
+inputs. When PRE and CLR are inactive (high),
+data at the data (D) input meeting the setup time
+requirements is transferred to the outputs on the
+positive-going edge of the clock pulse. Clock
+triggering occurs at a voltage level and is not
+directly related to the rise time of the clock pulse.
+Following the hold-time interval, data at the
+D input may be changed without affecting the
+levels at the outputs.
+The SN54F74 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F74 is characterized for
+operation from 0°C to 70°C.

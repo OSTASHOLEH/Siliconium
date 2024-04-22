@@ -1,0 +1,9 @@
+The 74HC4040; 74HCT4040 are high-speed Si-gate CMOS devices and are pin
+compatible with the HEF4040B series. They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC4040; 74HCT4040 are 12-stage binary ripple counters with a clock input (CP),
+an overriding asynchronous master reset input (MR) and twelve parallel outputs (Q0 to
+Q11). The counter advances on the HIGH-to-LOW transition of CP.
+A HIGH on MR clears all counter stages and forces all outputs LOW, independent of the
+state of CP.
+Each counter stage is a static toggle flip-flop.

@@ -1,0 +1,29 @@
+The 74HC/HCT173 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT173 are 4-bit parallel load registers with
+clock enable control, 3-state buffered outputs (Q0 to Q3)
+and master reset (MR).
+When the two data enable inputs (E1 and E2) are LOW, the
+data on the Dn inputs is loaded into the register
+
+synchronously with the LOW-to-HIGH clock (CP)
+transition. When one or both En inputs are HIGH one
+set-up time prior to the LOW-to-HIGH clock transition, the
+register will retain the previous data. Data inputs and clock
+enable inputs are fully edge-triggered and must be stable
+only one set-up time prior to the LOW-to-HIGH clock
+transition.
+The master reset input (MR) is an active HIGH
+asynchronous input. When MR is HIGH, all four flip-flops
+are reset (cleared) independently of any other input
+condition.
+The 3-state output buffers are controlled by a 2-input NOR
+gate. When both output enable inputs (OE1 and OE2) are
+LOW, the data in the register is presented to the Qn
+outputs. When one or both OEn inputs are HIGH, the
+outputs are forced to a high impedance OFF-state. The
+3-state output buffers are completely independent of the
+register operation; the OEn transition does not affect the
+clock and reset operations.

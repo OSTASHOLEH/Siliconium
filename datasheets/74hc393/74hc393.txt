@@ -1,0 +1,21 @@
+The 74HC/HCT393 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT393 are 4-bit binary ripple counters with
+separate clocks (1CP and 2 CP) and master reset (1MR
+and 2MR) inputs to each counter. The operation of each
+half of the “393” is the same as the “93” except no external
+clock connections are required.
+The counters are triggered by a HIGH-to-LOW transition of
+the clock inputs. The counter outputs are internally
+connected to provide clock inputs to succeeding stages.
+The outputs of the ripple counter do not change
+synchronously and should not be used for high-speed
+address decoding.
+The master resets are active-HIGH asynchronous inputs
+to each 4-bit counter identified by the “1” and “2” in the pin
+description.
+A HIGH level on the nMR input overrides the clock and
+sets the outputs LOW.

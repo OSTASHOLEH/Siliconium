@@ -1,0 +1,22 @@
+The 74HC/HCT4051 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4051” of the
+
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC/HCT4051 are 8-channel analog
+multiplexers/demultiplexers with three digital select inputs
+(S0 to S2), an active LOW enable input (E), eight
+independent inputs/outputs (Y0 to Y7) and a common
+input/output (Z).
+With E LOW, one of the eight switches is selected (low
+impedance ON-state) by S0 to S2. With E HIGH, all
+switches are in the high impedance OFF-state,
+independent of S0 to S2.
+VCC and GND are the supply voltage pins for the digital
+control inputs (S0 to S2, and E). The VCC to GND ranges
+are 2.0 to 10.0 V for HC and 4.5 to 5.5 V for HCT. The
+analog inputs/outputs (Y0 to Y7, and Z) can swing between
+VCC as a positive limit and VEE as a negative limit.
+VCC − VEE may not exceed 10.0 V.
+For operation as a digital multiplexer/demultiplexer, VEE is
+connected to GND (typically ground).

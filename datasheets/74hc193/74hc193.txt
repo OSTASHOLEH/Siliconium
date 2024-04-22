@@ -1,0 +1,58 @@
+The 74HC/HCT193 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT193 are 4-bit synchronous binary up/down
+counters. Separate up/down clocks, CPU and
+CPD respectively, simplify operation. The outputs change
+state synchronously with the LOW-to-HIGH transition of
+either clock input. If the CPU clock is pulsed while CPD is
+held HIGH, the device will count up. If the CPD clock is
+pulsed while CPU is held HIGH, the device will count down.
+Only one clock input can be held HIGH at any time, or
+erroneous operation will result. The device can be cleared
+at any time by the asynchronous master reset input (MR);
+it may also be loaded in parallel by activating the
+asynchronous parallel load input (PL).
+The “193” contains four master-slave JK flip-flops with the
+necessary steering logic to provide the asynchronous
+reset, load, and synchronous count up and count down
+functions.
+Each flip-flop contains JK feedback from slave to master,
+such that a LOW-to-HIGH transition on the CPD input will
+decrease the count by one, while a similar transition on the
+CPU input will advance the count by one.
+
+One clock should be held HIGH while counting with the
+other, otherwise the circuit will either count by two’s or not
+at all, depending on the state of the first flip-flop, which
+cannot toggle as long as either clock input is LOW.
+Applications requiring reversible operation must make the
+reversing decision while the activating clock is HIGH to
+avoid erroneous counts.
+The terminal count up (TCU) and terminal count down
+(TCD) outputs are normally HIGH. When the circuit has
+reached the maximum count state of 15, the next
+HIGH-to-LOW transition of CPU will cause TCU to go
+LOW.
+TCU will stay LOW until CPU goes HIGH again, duplicating
+the count up clock.
+Likewise, the TCD output will go LOW when the circuit is in
+the zero state and the CPD goes LOW. The terminal count
+outputs can be used as the clock input signals to the next
+higher order circuit in a multistage counter, since they
+duplicate the clock waveforms. Multistage counters will not
+be fully synchronous, since there is a slight delay time
+difference added for each stage that is added.
+The counter may be preset by the asynchronous parallel
+load capability of the circuit. Information present on the
+parallel data inputs (D0 to D3) is loaded into the counter
+and appears on the outputs (Q0 to Q3) regardless of the
+conditions of the clock inputs when the parallel load
+(PL) input is LOW. A HIGH level on the master reset (MR)
+input will disable the parallel load gates, override both
+clock inputs and set all outputs (Q0 to Q3) LOW. If one of
+the clock inputs is LOW during and after a reset or load
+operation, the next LOW-to-HIGH transition of that clock
+will be interpreted as a legitimate signal and will be
+counted.

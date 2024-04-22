@@ -1,0 +1,14 @@
+The 74HC4053; 74HCT4053 is a high-speed Si-gate CMOS device and is pin compatible
+with the HEF4053B. It is specified in compliance with JEDEC standard no. 7A.
+The 74HC4053; 74HCT4053 is triple 2-channel analog multiplexer/demultiplexer with a
+common enable input (E). Each multiplexer/demultiplexer has two independent
+inputs/outputs (nY0 and nY1), a common input/output (nZ) and three digital select
+inputs (Sn).
+With E LOW, one of the two switches is selected (low-impedance ON-state) by S1 to S3.
+With E HIGH, all switches are in the high-impedance OFF-state, independent of S1 to S3.
+VCC and GND are the supply voltage pins for the digital control inputs (S1 to S3 and E).
+The VCC to GND ranges are 2.0 V to 10.0 V for 74HC4053 and 4.5 V to 5.5 V for
+74HCT4053. The analog inputs/outputs (nY0 and nY1, and nZ) can swing between VCC
+as a positive limit and VEE as a negative limit. VCC − VEE may not exceed 10.0 V.
+For operation as a digital multiplexer/demultiplexer, VEE is connected to GND (typically
+ground).

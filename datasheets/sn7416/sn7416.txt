@@ -1,0 +1,12 @@
+These TTL hex inverter buffers/drivers feature
+high-voltage open-collector outputs for interfacing
+with high-level circuits (such as MOS) or for
+driving high-current loads (such as lamps or
+relays), and also are characterized for use as
+inverter buffers for driving TTL inputs. The
+SN5406 and SN7406 have minimum breakdown
+voltages of 30 V. The SN5416 and SN7416 have
+minimum breakdown voltages of 15 V. The
+maximum sink current is 30 mA for the SN5406
+and SN5416, and 40 mA for the SN7406 and
+SN7416.

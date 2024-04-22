@@ -1,0 +1,16 @@
+The SN74F112 contains two independent J-K
+negative-edge-triggered flip-flops. A low level at
+the preset (PRE) or clear (CLR) inputs sets or
+resets the outputs regardless of the levels of the
+other inputs. When PRE and CLR are inactive
+(high), data at the J and K inputs meeting the setup
+time requirements is transferred to the outputs on
+the negative-going edge of the clock pulse. Clock
+triggering occurs at a voltage level and is not
+directly related to the rise time of the clock pulse.
+Following the hold-time interval, data at the J and
+K inputs may be changed without affecting the
+levels at the outputs. The SN74F112 can perform
+as a toggle flip-flop by tying J and K high.
+The SN74F112 is characterized for operation from
+0°C to 70°C.

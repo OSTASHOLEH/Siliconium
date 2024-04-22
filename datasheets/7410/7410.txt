@@ -1,0 +1,1 @@
+These devices contain three independent 3 - input NAND gates . The SN5410 , SN54LS10 , and SN54S10 are characterized for operation over the full military temperature range of -55 ° C to 125 ° C . The SN7410 , SN74LS10 , and SN74S10 are characterized for operation from 0 ° C to 70 ° C .

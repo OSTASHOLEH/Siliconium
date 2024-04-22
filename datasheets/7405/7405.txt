@@ -1,0 +1,3 @@
+These devices contain six independent inverters. To perform correctly, the open-collector outputs require pullup
+resistors. These devices may be connected to other open-collector outputs to implement active-low wired-OR
+or active-high wire-AND functions. Open-collector devices often are used to generate high VOH levels.

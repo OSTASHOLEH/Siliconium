@@ -1,0 +1,25 @@
+The 74HC/HCT165 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT165 are 8-bit parallel-load or serial-in shift
+registers with complementary serial outputs (Q7 and
+Q7) available from the last stage. When the parallel load
+(PL) input is LOW, parallel data from the D0 to
+D7 inputs are loaded into the register asynchronously.
+
+When PL is HIGH, data enters the register serially at the
+Ds input and shifts one place to the right
+(Q0 → Q1 → Q2, etc.) with each positive-going clock
+transition. This feature allows parallel-to-serial converter
+expansion by tying the Q7 output to the DS input of the
+succeeding stage.
+The clock input is a gated-OR structure which allows one
+input to be used as an active LOW clock enable (CE) input.
+The pin assignment for the CP and CE inputs is arbitrary
+and can be reversed for layout convenience. The
+LOW-to-HIGH transition of input CE should only take
+place while CP HIGH for predictable operation. Either the
+CP or the CE should be HIGH before the
+LOW-to-HIGH transition of PL to prevent shifting the data
+when PL is activated.

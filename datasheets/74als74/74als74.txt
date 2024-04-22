@@ -1,0 +1,12 @@
+The 74ALS74 is a dual positive edge-triggered D-type flip-flop
+featuring individual data, clock, set, and reset inputs; also true and
+complementary outputs. Set (SD) and reset (RD) are asynchronous
+active-Low inputs and operate independently of the clock input.
+When set and reset are inactive (High), data at the D input is
+transferred to the Q and Q outputs on the Low-to-High transition of
+the clock. Data must be stable just one setup time prior to the
+Low-to-High transition of the clock for predictable operation. Clock
+triggering occurs at a voltage level and is not directly related to the
+transition time of the positive-going pulse. Following the hold time
+interval, data at the D input may be changed without affecting the
+levels of the output.

@@ -1,0 +1,11 @@
+These data selectors/multiplexers are designed
+to multiplex signals from 4-bit data sources to
+4-output data lines in bus-organized systems. The
+3-state outputs do not load the data lines when the
+output-enable (OE) input is at a high logic level.
+The SN54ALS257A and SN54ALS258A are
+characterized for operation over the full military
+temperature range of –55°C to 125°C. The
+SN74ALS257A, SN74ALS258A, SN74AS257,
+and SN74AS258 are characterized for operation
+from 0°C to 70°C.

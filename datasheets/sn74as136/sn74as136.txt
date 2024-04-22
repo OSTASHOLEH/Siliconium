@@ -1,0 +1,16 @@
+These devices contain four independent
+Exclusive-OR gates with open-collector outputs.
+They perform the Boolean functions
+Y = A ⊕ B = AB + AB in positive logic.
+A common application is a true/complement
+element. If one of the inputs is low, the other input
+will be reproduced in true form at the output. If one
+of the inputs is high, the signal on the other input
+will be reproduced inverted at the output.
+
+The SN54ALS136 and SN54AS136 are charac-
+terized for operation over the full military
+
+temperature range of –55°C to 125°C. The
+SN74ALS136 and SN74AS136 are characterized
+for operation from 0°C to 70°C.

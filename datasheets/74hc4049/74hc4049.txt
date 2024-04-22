@@ -1,0 +1,17 @@
+The 74HC4049 is a high-speed Si-gate CMOS device and
+is pin compatible with the “4049” of the “4000B” series. It
+is specified in compliance with JEDEC standard no. 7A.
+The 74HC4049 provides six inverting buffers with a
+modified input protection structure, which has no diode
+connected to VCC. Input voltages of up to 15 V may
+therefore be used.
+
+This feature enables the inverting buffers to be used as
+logic level translators, which will convert high level logic to
+low level logic, while operating from a low voltage power
+supply. For example 15 V logic (“4000B series”) can be
+converted down to 2 V logic.
+The actual input switch level remains related to the VCC
+and is the same as mentioned in the family characteristics.
+At the same time each part can be used as a simple
+inverter without level translation.

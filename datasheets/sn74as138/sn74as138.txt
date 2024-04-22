@@ -1,0 +1,24 @@
+The ′ALS138A and ′AS138 are 3-line to 8-line
+
+decoders/demultiplexers designed for high-
+performance memory-decoding or data-routing
+
+applications requiring very short propagation
+delay times. In high-performance systems, these
+devices can be used to minimize the effects of
+system decoding. When employed with
+high-speed memories with a fast enable circuit,
+the delay times of the decoder and the enable time
+of the memory are usually less than the typical
+access time of the memory. The effective system
+delay introduced by the Schottky-clamped system
+decoder is negligible.
+The conditions at the binary-select (A, B, and C)
+inputs and the three enable (G1, G2A, and G2B)
+inputs select one of eight output lines. Two
+active-low and one active-high enable inputs
+reduce the need for external gates or inverters when expanding. A 24-line decoder can be implemented without
+external inverters and a 32-line decoder requires only one inverter. An enable input can be used as a data input
+for demultiplexing applications.
+The SN54ALS138A and SN54AS138 are characterized for operation over the full military temperature range
+of –55°C to 125°C. The SN74ALS138A and SN74AS138 are characterized for operation from 0°C to 70°C.

@@ -1,0 +1,23 @@
+The ’165 and ’LS165A are 8-bit serial shift
+registers that shift the data in the direction of QA
+toward QH when clocked. Parallel-in access to
+each stage is made available by eight individual,
+direct data inputs that are enabled by a low level
+at the shift/load (SH/LD) input. These registers
+also feature gated clock (CLK) inputs and
+complementary outputs from the eighth bit. All
+inputs are diode-clamped to minimize
+transmission-line effects, thereby simplifying
+system design.
+Clocking is accomplished through a two-input
+positive-NOR gate, permitting one input to be
+used as a clock-inhibit function. Holding either of
+the clock inputs high inhibits clocking, and holding
+either clock input low with SH/LD high enables the
+other clock input. Clock inhibit (CLK INH) should
+be changed to the high level only while CLK is
+high. Parallel loading is inhibited as long as SH/LD
+is high. Data at the parallel inputs are loaded
+directly into the register while SH/LD is low,
+independently of the levels of CLK, CLK INH, or
+serial (SER) inputs.

@@ -1,0 +1,7 @@
+The 74ALS244A is an octal buffer that is ideal for driving bus lines or
+buffer memory address registers. The outputs are all capable of
+sinking 24mA and sourcing up to 15mA, producing very good
+capacitive drive characteristics. The device features two output
+enables, OEa and OEb, each controlling four of the 3-State outputs.
+The 74ALS244A-1 sinks 48 mA IOL if the VCC is limited to
+5.0V ±0.25V.

@@ -1,0 +1,5 @@
+The SN74F125 features independent line drivers
+with 3-state outputs. Each output is disabled when
+the associated output enable (OE) input is high.
+The SN74F125 is characterized for operation from
+0°C to 70°C.

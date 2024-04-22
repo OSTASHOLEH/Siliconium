@@ -1,0 +1,43 @@
+The 74HC/HCT153 are high-speed
+Si-gate CMOS devices and are pin
+compatible with low power Schottky
+TTL (LSTTL). They are specified in
+compliance with JEDEC standard
+no. 7A.
+
+The 74HC/HCT153 have two
+identical 4-input multiplexers which
+select two bits of data from up to four
+sources selected by common data
+select inputs (S0, S1). The two 4-input
+multiplexer circuits have individual
+active LOW output enable inputs (1E,
+2E) which can be used to strobe the
+outputs independently. The outputs
+(1Y, 2Y) are forced LOW when the
+corresponding output enable inputs
+are HIGH.
+The “153” is the logic implementation
+of a 2-pole, 4-position switch, where
+the position of the switch is
+determined by the logic levels applied
+to S0 and S1.
+
+The logic equations for the outputs
+are:
+1Y = 1E.(1I0.S1.S0+1I1.S1.S0+
++1I2.S1.S0+1I3.S1.S0)
+2Y = 2E.(2I0.S1.S0+2I1.S1.S0+
++2I2.S1.S0+2I3.S1.S0)
+The “153” can be used to move data
+to a common output bus from a group
+of registers. The state of the select
+inputs would determine the particular
+register from which the data came. An
+alternative application is a function
+generator. The device can generate
+two functions or three variables. This
+is useful for implementing highly
+irregular random logic.
+The “153” is similar to the “253” but
+has standard outputs.

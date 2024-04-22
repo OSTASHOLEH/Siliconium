@@ -1,0 +1,13 @@
+This advanced low power Schottky device contains 8 pairs
+
+of 3-STATE logic elements configured as octal bus trans-
+ceivers. These circuits are designed for use in memory,
+
+microprocessor systems and in asynchronous bidirectional
+data buses. Two way communication between buses is
+controlled by the (DIR) input. Data transmits either from the
+A bus to the B bus or from the B bus to the A bus. Both the
+driver and receiver outputs can be disabled via the (G)
+
+enable input which causes outputs to enter the high imped-
+ance mode so that the buses are effectively isolated.

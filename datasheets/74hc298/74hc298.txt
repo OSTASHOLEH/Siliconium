@@ -1,0 +1,4 @@
+This circuit is controlled by the signals word select and clock. When the word select input is taken low
+word 1 (A1, B1, C1 and D1) is presented to the inputs of the flip-flops, and when word select is high word 2
+(A2, B2, C2 and D2) is presented to the inputs of the flip-flops. The selected word is clocked to the output
+terminals on the negative edge of the clock pulse.

@@ -1,0 +1,10 @@
+The M74HC07 is an high speed CMOS HEX
+OPEN DRAIN BUFFER fabricated with silicon
+gate C2MOS technology.
+The internal circuit is composed of 2 stages
+including buffer output, which enables high noise
+immunity and stable output.
+
+All inputs are equipped with protection circuits
+against static discharge and transient excess
+voltage.

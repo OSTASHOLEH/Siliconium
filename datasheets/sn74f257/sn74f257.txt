@@ -1,0 +1,9 @@
+The ′F257 is designed to multiplex signals from
+4-bit data sources to 4-output data lines in
+bus-organized systems. The 3-state outputs will
+not load the data lines when the output enable
+(OE) input is at a high logic level.
+The SN54F257 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F257 is characterized for
+operation from 0°C to 70°C.

@@ -1,0 +1,11 @@
+The 74HC/HCT368 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT368 are hex inverting buffer/line drivers
+with 3-state outputs. The 3-state outputs (nY) are
+controlled by the output enable inputs (1OE, 2OE).
+A HIGH on nOE causes the outputs to assume a high
+impedance OFF-state.
+The “368” is identical to the “367” but has inverting outputs.

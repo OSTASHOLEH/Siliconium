@@ -1,0 +1,9 @@
+These devices contain two independent 4-input
+positive-NAND gates. They perform the Boolean
+functions Y = A • B • C • D or Y = A + B + C + D
+in positive logic.
+The SN54ALS20A and SN54AS20 are
+characterized for operation over the full military
+temperature range of –55°C to 125°C. The
+SN74ALS20A and SN74AS20 are characterized
+for operation from 0°C to 70°C.

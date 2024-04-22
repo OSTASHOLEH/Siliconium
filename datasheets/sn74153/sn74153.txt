@@ -1,0 +1,1 @@
+Each of these monolithic , data selectors / multiplexers contains inverters and drivers to supply fully com- plementary , on - chip , binary decoding data selection to the AND - OR gates . Separate strobe inputs are provided for each of the two four - line sections .

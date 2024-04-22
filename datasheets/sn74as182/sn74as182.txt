@@ -1,0 +1,24 @@
+This 10-bit flip-flop device features three-state
+outputs designed specifically for driving highly
+capacitive or relatively low-impedance loads. It is
+particularly suitable for implementing wider buffer
+registers, I/O ports, bidirectional bus drivers with
+parity, and working registers. The ten flip-flops are
+edge-triggered D-type flip-flops. On the positive
+transition of the clock, the Q outputs on the
+’AS1821 will be true.
+A buffered output-control input can be used to
+place the ten outputs in either a normal logic state
+(high or low levels) or a high-impedance state. In
+the high-impedance state the outputs neither load
+nor drive the bus lines significantly. The
+high-impedance state and increased drive provide
+the capability to drive the bus lines in a
+bus-organized system without need for interface
+or pull-up components. The output control (OC)
+does not affect the internal operation of the
+flipflops. Old data can be retained or new data can
+be entered while the outputs are in the
+high-impedance state.
+The SN74AS1821 is characterized for operation
+from 0°C to 70°C.

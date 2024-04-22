@@ -1,0 +1,27 @@
+The 74ALS373 is an octal transparent latch coupled to eight 3-State
+output devices. The two sections of the device are controlled
+independently by enable (E) and output enable (OE) control gates.
+The data on the D inputs is transferred to the latch outputs when the
+enable (E) input is High. The latch remains transparent to the data
+input while E is High, and stores the data that is present one setup
+time before the High-to-Low enable transition.
+The 3-State output buffers are designed to drive heavily loaded
+3-State buses, MOS memories, or MOS microprocessors.
+The active-Low output enable (OE) controls all eight 3-State buffers
+independent of the latch operation. When OE is Low, latched or
+transparent data appears at the output.
+When OE is High, the outputs are in High impedance “off” state,
+which means they will neither drive nor load the bus.
+The 74ALS374 is an 8-bit edge triggered register coupled to eight
+3-State output buffers. The two sections of the device are controlled
+independently by clock (CP) and output enable (OE) control gates.
+The register is fully edge triggered. The state of the D input, one
+setup time before the Low-to-High clock transition is transferred to
+the corresponding flip-flop’s Q output.
+The 3-State output buffers are designed to drive heavily loaded
+3-State buses, MOS memories, or MOS microprocessors.
+The active-Low output enable (OE) controls all eight 3-State buffers
+independent of the register operation. When OE is Low, the data in
+the register appears at the outputs. When OE is High, the outputs
+are in High impedance “off” state, which means they will neither
+drive nor load the bus.

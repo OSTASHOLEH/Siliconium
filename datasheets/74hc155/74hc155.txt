@@ -1,0 +1,26 @@
+The M54/74HC155 is a high speed CMOS DUAL 2-
+TO-4 LINE DECODER fabricated in silicon gate
+C2
+MOS technology.
+It has the same high speed performance of LSTTL
+combined with true CMOS low power consumption.
+
+It features dual 1-TO-4 line demultiplexers with indi-
+vidual strobe inputs (1G and 2G), individual data in-
+puts (1C and 2C) and common binary address
+
+inputs (A and B).
+When both decoders are enabled bythestrobes, the
+inverted output of 1C data and non-inverted output
+of 2C data will be brought to the select output pins
+of each sections. A 1-TO-8 line demultiplexer can
+also be easily built up by providing a data signal to
+both 1C and 2C inputs ; the output order from the
+msb is 1Y3, 1Y2, 1Y1, 1Y0, 2Y3, 2Y2, 2Y1, 2Y0.
+This device can be used as a 2-to-4 line decoder or
+a 3-to-8 line decoder when 1C is held high and 2C
+is held low.
+All inputs are equipped with protection circuits
+
+against static discharge and transient excess volt-
+age.

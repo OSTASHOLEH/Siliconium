@@ -1,0 +1,23 @@
+The ′F138 is designed to be used in
+
+high-performance memory-decoding or data-
+routing applications requiring very short
+
+propagation delay times. In high-performance
+memory systems, these decoders can be used to
+minimize the effects of system decoding. When
+employed with high-speed memories utilizing a
+fast enable circuit, the delay times of this decoder
+and the enable time of the memory are usually
+less than the typical access time of the memory.
+This means that the effective system delay
+introduced by the decoder is negligible.
+The conditions at the binary-select inputs and the
+three enable inputs select one of eight output
+lines. Two active-low and one active-high enable
+inputs reduce the need for external gates or
+inverters when expanding. A 24-line decoder can
+be implemented without external inverters and a 32-line decoder requires only one inverter. An enable input can
+be used as a data input for demultiplexing applications.
+The SN54F138 is characterized for operation over the full military temperature range of –55°C to 125°C. The
+SN74F138 is characterized for operation from 0°C to 70°C.

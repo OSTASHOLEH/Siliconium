@@ -1,0 +1,18 @@
+The 74HC/HCT356 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT356 data selectors/multiplexers contain full
+on-chip binary decoding, to select one-of-eight data
+sources. The data select address is stored in transparent
+latches that are enabled by a LOW on the latch enable
+input LE.
+Data on the 8 input lines (D0 to D7) is clocked into a
+edge-triggered data register by a LOW-to-HIGH transition
+of the clock (CP).
+When the output enable input OE1 = HIGH, OE2 = HIGH
+or OE3 = LOW, the outputs go to the high impedance
+OFF-state.
+Operation of these output enable inputs does not affect the
+state of the latches and register.

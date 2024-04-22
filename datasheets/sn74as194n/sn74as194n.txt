@@ -1,0 +1,24 @@
+These 4-bit bidirectional universal shift registers
+feature parallel outputs, right-shift and left-shift
+
+serial (SR SER, SL SER) inputs, operating-
+mode-control (S0, S1) inputs, and a direct
+
+overriding clear (CLR) line. The registers have
+four distinct modes of operation:
+• Inhibit clock (temporary data latch/do nothing)
+• Shift right (in the direction QA toward QD)
+• Shift left (in the direction QD toward QA)
+• Parallel (broadside) load
+Parallel synchronous loading is accomplished by
+applying the four bits of data and taking both S0
+and S1 high. The data is loaded into the
+associated flip-flops and appears at the outputs
+after the positive transition of the clock (CLK)
+input. During loading, serial data flow is inhibited.
+Shift right is accomplished synchronously with the rising edge of the clock pulse when S0 is high and S1 is low.
+Serial data for this mode is entered at the shift-right data input. When S0 is low and S1 is high, data shifts left
+synchronously and new data is entered at the shift-left serial inputs. Clocking of the flip-flop is inhibited when
+both mode-control inputs are low.
+The SN54AS194 is characterized for operation over the full military temperature range of –55°C to 125°C. The
+SN74AS194 is characterized for operation from 0°C to 70°C.

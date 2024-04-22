@@ -1,0 +1,22 @@
+The 74HC/HCT283 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT283 add two 4-bit binary words (An plus Bn)
+plus the incoming carry. The binary sum appears on the
+sum outputs (∑1 to ∑4) and the out-going carry (COUT)
+according to the equation:
+
+CIN + (A1 + B1) + 2(A2 + B2) + +4(A3 + B3) + 8(A4 + B4) =
+= ∑1 + 2∑2 + 4∑3 + 8∑4 + 16COUT
+Where (+) = plus.
+Due to the symmetry of the binary add function, the “283”
+can be used with either all active HIGH operands (positive
+logic) or all active LOW operands (negative logic); see
+function table. In case of all active LOW operands the
+results ∑1 to ∑4 and COUT should be interpreted also as
+active LOW. With active HIGH inputs, CIN must be held
+LOW when no “carry in” is intended. Interchanging inputs
+of equal weight does not affect the operation, thus CIN, A1,
+B1 can be assigned arbitrarily to pins 5, 6, 7, etc.
+See the “583” for the BCD version.

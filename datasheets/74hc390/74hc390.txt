@@ -1,0 +1,29 @@
+The 74HC/HCT390 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT390 are dual 4-bit decade ripple counters
+divided into four separately clocked sections. The counters
+have two divide-by-2 sections and two divide-by-5
+sections. These sections are normally used in a BCD
+
+decade or bi-quinary configuration, since they share a
+common master reset input (nMR). If the two master reset
+inputs (1MR and 2MR) are used to simultaneously clear all
+8 bits of the counter, a number of counting configurations
+are possible within one package. The separate clocks
+(nCP0 and nCP1 ) of each section allow ripple counter or
+frequency division applications of divide-by-2, 4, 5, 10, 20,
+25, 50 or 100.
+Each section is triggered by the HIGH-to-LOW transition of
+the clock inputs (nCP0 and nCP1 ). For BCD decade
+operation, the nQ0 output is connected to the nCP1 input
+of, the divide-by-5 section. For bi-quinary decade
+operation, the nQ3 output is connected to the nCP0 input
+and nQ0 becomes the decade output.
+The master reset inputs (1MR and 2MR) are active HIGH
+asynchronous inputs to each decade counter which
+operates on the portion of the counter identified by the “1”
+and “2” prefixes in the pin configuration. A HIGH level on
+the nMR input overrides the clocks and sets the four
+outputs LOW.

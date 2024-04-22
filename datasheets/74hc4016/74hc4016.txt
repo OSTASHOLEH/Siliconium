@@ -1,0 +1,19 @@
+The 74HC/HCT4016 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4016” of the
+
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC/HCT4016 have four independent analog
+switches (transmission gates).
+Each switch has two input/output terminals (Yn, Zn) and an
+active HIGH enable input (En). When En is connected to
+VCC, a low bidirectional path between Yn and Zn is
+established (ON condition). When En is connected to
+ground (GND), the switch is disabled and a high
+impedance between Yn and Zn is established (OFF
+condition).
+Current through a switch will not cause additional
+VCC current provided the voltage at the terminals of the
+switch is maintained within the supply voltage range;
+VCC >> (VY, VZ) >> GND. Inputs Yn and Zn are electrically
+equivalent terminals.

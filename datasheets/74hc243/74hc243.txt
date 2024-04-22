@@ -1,0 +1,14 @@
+The 74HC/HCT243 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT243 are quad bus transceivers featuring
+non-inverting 3-state bus compatible outputs in both send
+and receive directions.
+They are designed for 4-line asynchronous 2-way data
+communications between data buses.
+The output enable inputs (OEA and OEB) can be used to
+isolate the buses.
+The “243” is similar to the “242” but has non-inverting (true)
+outputs.

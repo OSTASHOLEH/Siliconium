@@ -1,0 +1,24 @@
+This synchronous, presettable, 4-bit up/down binary counter features an internal carry look-ahead circuitry for
+cascading in high-speed counting applications. Synchronous operation is provided by having all flip-flops
+clocked simultaneously so that the outputs change coincident with each other when so instructed by the
+count-enable (ENP, ENT) inputs and internal gating. This mode of operation eliminates the output counting
+spikes that are normally associated with asynchronous (ripple-clock) counters. A buffered clock (CLK) input
+triggers the four flip-flops on the rising (positive-going) edge of the clock waveform.
+This counter is fully programmable; that is, it may be preset to any number between 0 and its maximum count.
+The load-input circuitry allows loading with the carry-enable output of cascaded counters. As loading is
+synchronous, setting up a low level at the load (LOAD) input disables the counter and causes the outputs to
+agree with the data inputs after the next clock pulse.
+The carry look-ahead circuitry provides for cascading counters for n-bit synchronous application without
+additional gating. Instrumental in accomplishing this function are two count-enable (ENP, ENT) inputs and a
+ripple-carry (RCO) output. Both ENP and ENT must be low to count. The direction of the count is determined
+by the level of the up/down (U/D) input. When U/D is high, the counter counts up; when low, it counts down. Input
+ENT is fed forward to enable the RCO. RCO thus enabled will produce a low-level pulse while the count is zero
+(all inputs low) counting down or maximum (9 or 15) counting up. This low-level overflow ripple-carry pulse can
+be used to enable successive cascaded stages. Transitions at ENP or ENT are allowed regardless of the level
+of the clock input. All inputs are diode clamped to minimize transmission-line effects, thereby simplifying system
+design.
+The SN74F169 features a fully independent clock circuit. Changes at control inputs (ENP, ENT, LOAD or U/D)
+that will modify the operating mode have no effect on the contents of the counter until clocking occurs. The
+function of the counter (whether enabled, disabled, loading, or counting) will be dictated solely by the conditions
+meeting the setup and hold times.
+The SN74F169 is characterized for operation from 0°C to 70°C.

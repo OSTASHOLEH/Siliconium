@@ -1,0 +1,28 @@
+This synchronous, presettable, 4-bit binary
+counter features an internal carry look-ahead
+circuitry for application in high-speed counting
+designs. Synchronous operation is provided by
+having all flip-flops clocked simultaneously so that the outputs change coincident with each other when so
+instructed by the count enable (ENP, ENT) inputs and internal gating. This mode of operation eliminates the
+output counting spikes that are normally associated with asynchronous (ripple-clock) counters; however,
+counting spikes may occur on the ripple carry (RCO) output. A buffered clock (CLK) input triggers the four
+flip-flops on the rising (positive-going) edge of the clock input waveform.
+This counter is fully programmable; that is, it may be preset to any number between 0 and 15. As presetting is
+synchronous, setting up a low level at the load (LOAD) input disables the counter and causes the outputs to
+agree with the setup data after the next clock pulse regardless of the levels of the enable inputs.
+The clear function for the SN74F163A is synchronous and a low level at the clear (CLR) input sets all four of
+the flip-flop outputs low after the next low-to-high transition of the clock regardless of the levels of the enable
+inputs. This synchronous clear allows the count length to be modified easily by decoding the Q outputs for the
+maximum count desired. The active-low output of the gate used for decoding is connected to the clear input to
+synchronously clear the counter to 0000 (LLLL).
+The carry look-ahead circuitry provides for cascading counters for n-bit synchronous applications without
+additional gating. Instrumental in accomplishing this function are two count-enable (ENP, ENT) inputs and a
+ripple-carry (RCO) output. Both ENP and ENT must be high to count, and ENT if fed forward to enable RCO.
+RCO thus enabled will produce a high-level pulse while the count is 15 (HHHH). The high-level overflow
+ripple-carry pulse can be used to enable successive cascaded stages. Transitions at ENP or ENT are allowed
+regardless of the level of the clock input.
+The SN74F163A features a fully independent clock circuit. Changes at control inputs (ENP, ENT, or LOAD) that
+will modify the operating mode have no effect on the contents of the counter until clocking occurs. The function
+of the counter (whether enabled, disabled, loading, or counting) will be dictated solely by the conditions meeting
+the setup and hold times.
+The SN74F163A is characterized for operation from 0°C to 70°C.

@@ -1,0 +1,12 @@
+The Harris CD74HC257 and CD74HCT257 are quad 2-input
+multiplexers which select four bits of data from two sources
+under the control of a common Select Input (S). The Output
+Enable input (OE) is active LOW. When OE is HIGH, all of
+
+the outputs (1Y-4Y) are in the high impedance state regard-
+less of all other input conditions.
+
+Moving data from two groups of registers to four common
+output busses is a common use of the 257. The state of the
+Select input determines the particular register from which
+the data comes. It can also be used as a function generator.

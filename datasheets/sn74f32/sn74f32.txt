@@ -1,0 +1,7 @@
+These devices contain four independent 2-input
+OR gates. They perform the Boolean functions
+Y = A + B or Y = A • B in positive logic.
+The SN54F32 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F32 is characterized for
+operation from 0°C to 70°C.

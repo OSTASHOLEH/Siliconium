@@ -1,0 +1,77 @@
+These synchronous presettable counters feature an inter-
+nal carry look ahead for application in high speed counting
+
+designs. The DM74ALS162B is a four-bit decade counter,
+while the DM74ALS161B and DM74ALS163B are four-bit
+
+binary counters. The DM74ALS161B clears asynchro-
+nously, while the DM74ALS162B and DM74ALS163B clear
+
+synchronously. The carry output is decoded to prevent
+
+spikes during normal counting mode of operation. Synchro-
+nous operation is provided by having all flip-flops clocked
+
+simultaneously so that outputs change coincident with
+each other when so instructed by count enable inputs and
+
+internal gating. This mode of operation eliminates the out-
+put counting spikes which are normally associated with
+
+asynchronous (ripple clock) counters. A buffered clock
+
+input triggers the four flip-flops on the rising (positive-
+going) edge of the clock input waveform.
+
+These counters are fully programmable, that is, the outputs
+may be preset to either level. As presetting is synchronous,
+setting up a low level at the load input disables the counter
+and causes the outputs to agree with set up data after the
+next clock pulse regardless of the levels of enable input.
+LOW-to-HIGH transitions at the load input are perfectly
+acceptable regardless of the logic levels on the clock or
+enable inputs.
+The DM74ALS161B clear function is asynchronous. A low
+level at the clear input sets all four of the flip-flop outputs
+LOW regardless of the levels of clock, load or enable
+inputs. These two counters are provided with a clear on
+power-up feature. The DM74ALS162B and DM74ALS163B
+clear function is synchronous; and a low level at the clear
+input sets all four of the flip-flop outputs LOW after the next
+clock pulse, regardless of the levels of enable inputs. This
+synchronous clear allows the count length to be modified
+easily, as decoding the maximum count desired can be
+
+accomplished with one external NAND gate. The gate out-
+put is connected to the clear input to synchronously clear
+
+the counter to all low outputs. LOW-to-HIGH transitions at
+the clear input of the DM74ALS162B and DM74ALS163B
+are also permissible regardless of the levels of logic on the
+clock, enable or load inputs.
+
+The carry look ahead circuitry provides for cascading
+
+counters for n bit synchronous application without addi-
+tional gating. Instrumental in accomplishing this function
+
+are two count enable inputs (P and T) and a ripple carry
+output. Both count enable inputs must be HIGH to count.
+The T input is fed forward to enable the ripple carry output.
+The ripple carry output thus enabled will produce a high
+level output pulse with a duration approximately equal to
+the high level portion of QA output. This high level overflow
+
+ripple carry pulse can be used to enable successive cas-
+caded stages. HIGH-to-LOW level transitions at the enable
+
+P or T inputs of the DM74ALS161B through
+DM74ALS163B may occur regardless of the logic level on
+the clock.
+The DM74ALS161B through DM74ALS163B feature a fully
+independent clock circuit. changes made to control inputs
+(enable P or T, or load) that will modify the operating mode
+will have no effect until clocking occurs. The function of the
+counter (whether enabled, disabled, loading or counting)
+will be dictated solely by the conditions meeting the stable
+set-up and hold times.

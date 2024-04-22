@@ -1,0 +1,7 @@
+These TTL encoders feature priority decoding of the inputs to ensure that only the highest-order data line is
+encoded. The ’147 and ’LS147 devices encode nine data lines to four-line (8-4-2-1) BCD. The implied decimal
+zero condition requires no input condition, as zero is encoded when all nine data lines are at a high logic level.
+The ’148 and ’LS148 devices encode eight data lines to three-line (4-2-1) binary (octal). Cascading circuitry
+(enable input EI and enable output EO) has been provided to allow octal expansion without the need for external
+circuitry. For all types, data inputs and outputs are active at the low logic level. All inputs are buffered to represent
+one normalized Series 54/74 or 54/74LS load, respectively.

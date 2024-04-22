@@ -1,0 +1,11 @@
+The 74ALS175 is a quad, edge-triggered D-type flip-flops with
+individual D inputs and both Q and Q outputs. The common buffered
+clock (CP) and master reset (MR) inputs load and reset (clear) all
+flip-flops simultaneously.
+The register is fully edge-triggered. The state of each D input, one
+setup time before the Low-to-High clock transition is transferred to
+the corresponding flip-flop’s Q output.
+All Q outputs will be forced Low independent of clock or data inputs
+by a Low voltage level on the MR input. The device is useful for
+applications where both true and complement outputs are required,
+and the clock and master reset are common to all storage elements.

@@ -1,0 +1,11 @@
+The 74HC/HCT366 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT366 are hex inverting buffer/line drivers
+with 3-state outputs. The 3-state outputs (nY) are
+controlled by the output enable inputs (OE1, OE2).
+A HIGH on OEn causes the outputs to assume a high
+impedance OFF-state.
+The ”366” is identical to the “365” but has inverting outputs.

@@ -1,0 +1,6 @@
+The SN74AS298A is a quadruple 2-input multiplexer with storage that provides essentially the equivalent
+functional capabilities of two separate MSI functions (SN74AS157 and ′AS175A) in a 16-pin package.
+When the word-select (WS) input is low, word 1 (A1, B1, C1, D1) is applied to the flip-flops. A high input to WS
+causes the selection of word 2 (A2, B2, C2, D2). The selected word is clocked to the output terminals on the
+negative-going edge of the clock pulse.
+The SN74AS298A is characterized for operation from 0°C to 70°C.

@@ -1,0 +1,41 @@
+These synchronous, presettable counters feature
+an internal carry look-ahead for application in
+high-speed counting designs. The ’ALS160B,
+’ALS162B, ’AS160, and ’AS162 are decade
+counters, and the ’ALS161B, ’ALS163B, ’AS161,
+
+and ’AS163 are 4-bit binary counters. Synchro-
+nous operation is provided by having all flip-flops
+
+clocked simultaneously so that the outputs
+change coincident with each other when so
+instructed by the count-enable inputs and internal
+gating. This mode of operation eliminates the
+
+output counting spikes that are normally asso-
+ciated with asynchronous (ripple clock)
+
+counters. A buffered clock input triggers the four
+flip-flops on the rising (positive-going) edge of the
+clock input waveform.
+These counters are fully programmable; that is, they may be preset to any number between 0 and 9, or 15. As
+presetting is synchronous, setting up a low level at the load input disables the counter and causes the outputs
+to agree with the setup data after the next clock pulse regardless of the levels of the enable inputs.
+The clear function for the ’ALS160B, ’ALS161B, ’AS160, and ’AS161 is asynchronous and a low level at the clear
+input sets all four of the flip-flop outputs low regardless of the levels of the clock, load, or enable inputs. This
+synchronous clear allows the count length to be modified easily by decoding the Q outputs for the maximum
+count desired. The active-low output of the gate used for decoding is connected to the clear input to
+synchronously clear the counter to 0000 (LLLL).
+The carry look-ahead circuitry provides for cascading counters for n-bit synchronous applications without
+additional gating. Instrumental in accomplishing this function are two count-enable inputs and a ripple carry
+output. Both count-enable inputs (ENP and ENT) must be high to count, and ENT is fed forward to enable the
+ripple carry output. The ripple carry output (RCO) thus enabled will produce a high-level pulse while the count
+is maximum (9 or 15 with QA high). This high-level overflow ripple carry pulse can be used to enable successive
+cascaded stages. Transitions at the ENP or ENT are allowed regardless of the level of the clock input.
+These counters feature a fully independent clock circuit. Changes at control inputs (ENP, ENT, or LOAD) that
+will modify the operating mode have no effect on the contents of the counter until clocking occurs. The function
+of the counter (whether enabled, disabled, loading, or counting) will be dictated solely by the conditions meeting
+the stable setup and hold times.
+The SN54ALS160B through SN54ALS163B and SN54AS160 through SN54AS163 are characterized for
+operation over the full military temperature range of –55°C to 125°C. The SN74ALS160B through
+SN74ALS163B and SN74AS160 through SN74AS163 are characterized for operation from 0°C to 70°C.

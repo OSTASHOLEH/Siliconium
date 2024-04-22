@@ -1,0 +1,53 @@
+The 74HC/HCT123 are high-speed
+Si-gate CMOS devices and are pin
+compatible with low power Schottky
+TTL (LSTTL). They are specified in
+compliance with JEDEC standard no.
+7A.
+The 74HC/HCT123 are dual
+retriggerable monostable
+multivibrators with output pulse width
+control by three methods. The basic
+pulse time is programmed by
+selection of an external resistor
+(REXT) and capacitor (CEXT). The
+external resistor and capacitor are
+normally connected as shown in
+Fig.6.
+Once triggered, the basic output
+pulse width may be extended by
+retriggering the gated active
+LOW-going edge input (nA) or the
+active HIGH-going edge input (nB).
+By repeating this process, the output
+pulse period (nQ = HIGH, nQ = LOW)
+can be made as long as desired.
+Alternatively an output delay can be
+terminated at any time by a
+LOW-going edge on input nRD, which
+also inhibits the triggering.
+An internal connection from nRD to
+the input gates makes it possible to
+trigger the circuit by a positive-going
+signal at input nRD as shown in the
+function table. Figures 7 and 8
+illustrate pulse control by retriggeringand early reset. The basic output
+pulse width is essentially determined
+by the values of the external timing
+components REXT and CEXT. For
+pulse widths, when CEXT < 10 000 pF,
+see Fig.9.
+When CEXT > 10 000 pF, the typical
+output pulse width is defined as:
+tW = 0.45 × REXT × CEXT (typ.),
+
+where:
+tW = pulse width in ns;
+REXT = external resistor in kΩ;
+CEXT = external capacitor in pF.
+Schmitt-trigger action in the nA and
+nB inputs, makes the circuit highly
+tolerant to slower input rise and fall
+times.
+The ‘123’ is identical to the ‘423’ but
+can be triggered via the reset input.

@@ -1,0 +1,7 @@
+These devices contain three independent 3-input
+NOR gates. They perform the Boolean functions
+Y = A • B • C or Y = A + B + C in positive logic.
+The SN54F27 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F27 is characterized for
+operation from 0°C to 70°C.

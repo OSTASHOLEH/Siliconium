@@ -1,0 +1,6 @@
+The 74HC/HCT125 are high-speed Si-gate CMOS devices and are pin compatible with low power Schottky TTL (LSTTL).
+They are specified in compliance with JEDEC standard no. 7A.
+The 74HC/HCT125 are four non-inverting buffer/line drivers with 3-state outputs. The 3-state outputs (nY) are controlled
+by the output enable input (nOE). A HIGH at nOE causes the outputs to assume a HIGH impedance OFF-state.
+The “125” is identical to the “126” but has active LOW enable inputs.
+GND = 0 V; Tamb = 25 °C; tr = tf = 6 ns

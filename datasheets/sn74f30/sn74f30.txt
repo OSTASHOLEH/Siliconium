@@ -1,0 +1,8 @@
+These devices contain a single 8-input NAND
+gate. They perform the Boolean functions
+Y = A • B • C • D • E • F • G • H or
+Y = A + B + C + D + E + F + G + H in positive logic.
+The SN54F30 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F30 is characterized for
+operation from 0°C to 70°C.

@@ -1,0 +1,9 @@
+The 74ALS153 has two identical 4–input multiplexer with 3–State
+outputs which selects two bits of data from four sources by using
+common select inputs (S0, S1). The two 4–input multiplexer circuits
+have individual active–Low enables (Ea, Eb) which can be used to
+strobe the outputs independently. Outputs (Ya, Yb) are forced Low
+when the corresponding enable is high.
+The 74ALS153 is the logic implementation of a 2–pole, 4–position
+switch where the position of the switch is determined by the logic
+levels supplied to the common select inputs.

@@ -1,0 +1,12 @@
+These universal 9-bit parity generators/checkers
+utilize advanced Schottky high-performance
+circuitry and feature odd (Σ ODD) and even (Σ EVEN) outputs to facilitate operation of either odd- or even-parity
+applications. The word-length capability is easily expanded by cascading.
+These devices can be used to upgrade the performance of most systems utilizing the SN74ALS180 and
+SN74AS180 parity generators/checkers. Although the SN74ALS280 and SN74AS280 are implemented without
+expander inputs, the corresponding function is provided by the availability of an input (I) at terminal 4 and the
+absence of any internal connection at terminal 3. This permits the SN74ALS280 and SN74AS280 to be
+substituted for the SN74ALS180 and SN74AS180 in existing designs to produce an identical function even if
+the devices are mixed with existing SN74ALS180 and SN74AS180 devices.
+All SN74AS280 inputs are buffered to lower the drive requirements.
+The SN74ALS280 and SN74AS280 are characterized for operation from 0°C to 70°C.

@@ -1,0 +1,8 @@
+These devices contain two independent 4-input
+NAND gates. They perform the Boolean functions
+Y = A • B • C • D or Y = A + B + C + D in positive
+logic.
+The SN54F20 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F20 is characterized for
+operation from 0°C to 70°C.

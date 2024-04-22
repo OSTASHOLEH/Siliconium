@@ -1,0 +1,28 @@
+The MC74HC4046A is similar in function to the MC14046 Metal
+gate CMOS device. The device inputs are compatible with standard
+CMOS outputs; with pullup resistors, they are compatible with
+LSTTL outputs.
+The HC4046A phase–locked loop contains three phase
+comparators, a voltage–controlled oscillator (VCO) and unity gain
+op–amp DEMOUT. The comparators have two common signal inputs,
+COMPIN, and SIGIN. Input SIGIN and COMPIN can be used directly
+coupled to large voltage signals, or indirectly coupled (with a series
+capacitor to small voltage signals). The self–bias circuit adjusts small
+voltage signals in the linear region of the amplifier. Phase comparator
+1 (an exclusive OR gate) provides a digital error signal PC1OUT and
+maintains 90 degrees phase shift at the center frequency between
+SIGIN and COMPIN signals (both at 50% duty cycle). Phase
+comparator 2 (with leading–edge sensing logic) provides digital error
+signals PC2OUT and PCPOUT and maintains a 0 degree phase shift
+between SIGIN and COMPIN signals (duty cycle is immaterial). The
+linear VCO produces an output signal VCOOUT whose frequency is
+determined by the voltage of input VCOIN signal and the capacitor
+and resistors connected to pins C1A, C1B, R1 and R2. The unity gain
+op–amp output DEMOUT with an external resistor is used where the
+VCOIN signal is needed but no loading can be tolerated. The inhibit
+input, when high, disables the VCO and all op–amps to minimize
+standby power consumption.
+Applications include FM and FSK modulation and demodulation,
+frequency synthesis and multiplication, frequency discrimination,
+tone decoding, data synchronization and conditioning,
+voltage–to–frequency conversion and motor speed control.

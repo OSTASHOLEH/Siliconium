@@ -1,0 +1,20 @@
+The 74HC/HCT4060 are high-speed Si-gate CMOS
+devices and are pin compatible with “4060” of the “4000B”
+series. They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT4060 are 14-stage ripple-carry
+counter/dividers and oscillators with three oscillator
+
+terminals (RS, RTC and CTC), ten buffered outputs (Q3 to
+Q9 and Q11 to Q13) and an overriding asynchronous
+master reset (MR).
+The oscillator configuration allows design of either RC or
+crystal oscillator circuits. The oscillator may be replaced by
+an external clock signal at input RS. In this case keep the
+other oscillator pins (RTC and CTC) floating.
+The counter advances on the negative-going transition of
+RS. A HIGH level on MR resets the counter (Q3 to Q9 and
+Q11 to Q13 = LOW), independent of other input conditions.
+In the HCT version, the MR input is TTL compatible, but
+the RS input has CMOS input switching levels and can be
+driven by a TTL output by using a pull-up resistor to VCC.

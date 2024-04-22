@@ -1,0 +1,12 @@
+The 74ALS164 is an 8-bit edge-triggered shift register with serial
+data entry and an output from each of the eight stages. Data is
+entered serially through one of two inputs (Dsa, Dsb); either input
+can be used as an active-high enable for data entry through the
+other input. Both inputs must be connected together or an unused
+input must be tied High.
+Data shifts one place to the right on each Low-to-high transition of
+the clock (CP) input, and enters into Q0 the logical AND of the two
+data inputs (Dsa, Dsb) that existed one setup time before the rising
+edge. A Low level on the Master reset (MR) input overrides all other
+inputs and clears the register asynchronously, forcing all outputs
+Low.

@@ -1,0 +1,28 @@
+The 74HC/HCT158 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT158 are quad 2-input multiplexers which
+select 4 bits of data from two sources and are controlled by
+a common data select input (S). The four outputs present
+the selected data in the inverted form. The enable input (E)
+is active LOW.
+When E is HIGH, all the outputs (1Y to 4Y) are forced
+HIGH regardless of all other input conditions.
+
+Moving the data from two groups of registers to four
+common output buses is a common use of the “158”. The
+state of S determines the particular register from which the
+data comes. It can also be used as a function generator.
+The device is useful for implementing highly irregular logic
+by generating any four of the 16 different functions of two
+variables with one variable common.
+The ”158” is the logic implementation of a 4-pole,
+2-position switch, where the position of the switch is
+determined by the logic levels applied to S.
+The logic equations for the output are:
+1Y = E.(1l1.S + 1l0.S)
+2Y = E.(2l1.S + 2l0.S)
+3Y = E.(3l1.S + 3l0.S)
+4Y = E.(4l1.S + 4l0.S)
+The “158” is identical to the “157” but has inverting outputs.

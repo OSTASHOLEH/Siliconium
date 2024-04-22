@@ -1,0 +1,17 @@
+The SN74F543 octal transceiver contains two
+sets of D-type latches for temporary storage of
+data flowing in either direction. Separate
+latch-enable (LEAB or LEBA) and output enable
+(OEAB or OEBA) inputs are provided for each
+register to permit independent control in either
+direction of data flow. The A outputs are
+characterized to sink 24 mA while the B outputs
+are characterized to sink 64 mA.
+The A-to-B enable (CEAB) input must be low in order to enter data from A or to output data from B. Having CEAB
+low and LEAB low makes the A-to-B latches transparent; a subsequent low-to-high transition of LEAB puts the
+A latches in the storage mode. With CEAB and OEAB both low, the 3-state B outputs are active and reflect the
+data present at the output of the A latches. Data flow from B to A is similar, but requires using the CEBA, LEBA,
+and OEBA inputs.
+The SN74F543 is available in TI’s shrink small-outline package (DB), which provides the same I/O pin count
+and functionality of standard small-outline packages in less than half the printed-circuit-board area.
+The SN74F543 is characterized for operation from 0°C to 70°C.

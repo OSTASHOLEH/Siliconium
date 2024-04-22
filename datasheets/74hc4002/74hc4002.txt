@@ -1,0 +1,3 @@
+The 74HC/HCT4002 are high-speed Si-gate CMOS devices and are pin compatible with “4002” of the “4000B” series.
+They are specified in compliance with JEDEC standard no. 7A.
+The 74HC/HCT4002 provide the 4-input NOR function.

@@ -1,0 +1,5 @@
+The 74HC/HCT32 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT32 provide the 2-input OR function.

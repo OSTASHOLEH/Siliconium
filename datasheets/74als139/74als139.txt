@@ -1,0 +1,6 @@
+The 74ALS139 is a dual 1-of-4 decoder/demultiplexer. This device
+has two independent decoders, each accepting two binary weighted
+inputs (A0n, A1n) and providing four mutually exclusive active-Low
+outputs (Q0n–Q3n). Each decoder has an active-Low enable (E).
+When E is High, every output is forced High. The enable can be
+used as the data input for a 1-of-4 demultiplexer application.

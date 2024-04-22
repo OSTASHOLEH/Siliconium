@@ -1,0 +1,34 @@
+The 74HC/HCT221 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT221 are dual non-retriggerable monostable
+multivibrators. Each multivibrator features an active
+LOW-going edge input (nA) and an active HIGH-going
+edge input (nB), either of which can be used as an enable
+input.
+Pulse triggering occurs at a particular voltage level and is
+not directly related to the transition time of the input pulse.
+Schmitt-trigger input circuitry for the nB inputs allow
+
+jitter-free triggering from inputs with slow transition rates,
+providing the circuit with excellent noise immunity.
+Once triggered, the outputs (nQ, nQ) are independent of
+further transitions of nA and nB inputs and are a function
+of the timing components. The output pulses can be
+terminated by the overriding active LOW reset inputs
+(nRD). Input pulses may be of any duration relative to the
+output pulse.
+Pulse width stability is achieved through internal
+compensation and is virtually independent of VCC and
+temperature. In most applications pulse stability will only
+be limited by the accuracy of the external timing
+components.
+The output pulse width is defined by the following
+relationship:
+tW = CEXTREXTIn2
+tW = 0.7CEXTREXT
+Pin assignments for the “221” are identical to those of the
+“123” so that the “221” can be substituted for those
+products in systems not using the retrigger by merely
+changing the value of REXT and/or CEXT.

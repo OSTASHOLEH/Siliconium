@@ -1,0 +1,36 @@
+These synchronous, presettable, 4-bit decade
+and binary counters feature an internal carry
+look-ahead circuitry for application in high-speed
+counting designs. The SN54ALS162B is a 4-bit
+decade counter. The ′ALS161B, ′ALS163B,
+′AS161, and ′AS163 are 4-bit binary counters.
+Synchronous operation is provided by having all
+flip-flops clocked simultaneously so that the
+outputs change coincidentally with each other
+when instructed by the count-enable (ENP, ENT)
+inputs and internal gating. This mode of operation
+eliminates the output counting spikes normally
+associated with asynchronous (ripple-clock)
+counters. A buffered clock (CLK) input triggers the
+four flip-flops on the rising (positive-going) edge of
+the clock input waveform.
+These counters are fully programmable; they may
+be preset to any number between 0 and 9 or 15.
+Because presetting is synchronous, setting up a
+low level at the load (LOAD) input disables the
+counter and causes the outputs to agree with the
+setup data after the next clock pulse, regardless of
+the levels of the enable inputs.
+The clear function for the ′ALS161B and ′AS161 is asynchronous. A low level at the clear (CLR) input sets all
+four of the flip-flop outputs low, regardless of the levels of the CLK, LOAD, or enable inputs. The clear function
+for the SN54ALS162B, ′ALS163B, and ′AS163 is synchronous, and a low level at CLR sets all four of the flip-flop
+outputs low after the next clock pulse, regardless of the levels of the enable inputs. This synchronous clear
+allows the count length to be modified easily by decoding the Q outputs for the maximum count desired. The
+active-low output of the gate used for decoding is connected to CLR to synchronously clear the counter to
+0000 (LLLL).
+The carry look-ahead circuitry provides for cascading counters for n-bit synchronous applications without
+additional gating. ENP and ENT inputs and a ripple-carry (RCO) output are instrumental in accomplishing this
+function. Both ENP and ENT must be high to count, and ENT is fed forward to enable RCO. RCO, thus enabled,
+produces a high-level pulse while the count is maximum (9 or 15 with QA high). The high-level overflow
+ripple-carry pulse can be used to enable successive cascaded stages. Transitions at ENP or ENT are allowed,
+regardless of the level of CLK.

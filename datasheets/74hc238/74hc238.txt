@@ -1,0 +1,22 @@
+The 74HC/HCT238 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT238 decoders accept three binary
+weighted address inputs (A0, A1, A2) and when enabled,
+
+provide 8 mutually exclusive active HIGH outputs
+(Y0 to Y7).
+The “238” features three enable inputs: two active LOW
+(E1 and E2) and one active HIGH (E3). Every output will be
+LOW unless E1 and E2 are LOW and E3 is HIGH.
+This multiple enable function allows easy parallel
+expansion of the “238” to a 1-of-32 (5 lines to 32 lines)
+decoder with just four “238” ICs and one inverter.
+The “238” can be used as an eight output demultiplexer by
+using one of the active LOW enable inputs as the data
+input and the remaining enable inputs as strobes. Unused
+enable inputs must be permanently tied to their
+appropriate active HIGH or LOW state.
+The “238” is identical to the “138” but has non-inverting
+outputs.

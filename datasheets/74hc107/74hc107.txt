@@ -1,0 +1,16 @@
+The 74HC/HCT107 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT107 are dual negative-edge triggered
+JK-type flip-flops featuring individual J, K, clock (nCP) and
+reset (nR) inputs; also complementary Q and Q outputs.
+The J and K inputs must be stable one set-up time prior to
+the HIGH-to-LOW clock transition for predictable
+operation.
+The reset (nR) is an asynchronous active LOW input.
+When LOW, it overrides the clock and data inputs, forcing
+the Q output LOW and the Q output HIGH.
+Schmitt-trigger action in the clock input makes the circuit
+highly tolerant to slower clock rise and fall times.

@@ -1,0 +1,22 @@
+These octal D-type transparent latches feature
+3-state outputs designed specifically for driving
+highly capacitive or relatively low-impedance
+loads. They are particularly suitable for
+implementing buffer registers, I/O ports,
+bidirectional bus drivers, and working registers.
+While the latch-enable (LE) input is high, outputs
+(Q) respond to the data (D) inputs. When LE is low,
+the outputs are latched to retain the data that was
+set up.
+A buffered output-enable (OE) input can be used
+to place the eight outputs in either a normal logic
+state (high or low) or a high-impedance state. In
+the high-impedance state, the outputs neither load
+nor drive the bus lines significantly. The
+high-impedance state and the increased drive
+provide the capability to drive bus lines without
+interface or pullup components.
+OE does not affect internal operations of the latches. Old data can be retained or new data can be entered while
+the outputs are in the high-impedance state.
+The SN54ALS580B is characterized for operation over the full military temperature range of –55°C to 125°C.
+The SN74ALS580B and SN74AS580 are characterized for operation from 0°C to 70°C.

@@ -1,0 +1,7 @@
+The 74HC/HCT132 are high-speed Si-gate CMOS devices and are pin compatible with low power Schottky TTL (LSTTL).
+They are specified in compliance with JEDEC standard no. 7A.
+The 74HC/HCT132 contain four 2-input NAND gates which accept standard input signals. They are capable of
+transforming slowly changing input signals into sharply defined, jitter-free output signals.
+The gate switches at different points for positive and negative-going signals. The difference between the positive voltage
+VT+ and the negative voltage VT− is defined as the hysteresis voltage VH.
+GND = 0 V; Tamb = 25 °C; tr = tf = 6 ns

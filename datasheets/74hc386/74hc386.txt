@@ -1,0 +1,12 @@
+The M54/74HC386 is a high speed CMOS QUAD
+EXCLUSIVE-OR GATE fabricated in silicon gate
+C2
+MOS technology.
+It has the same high speed performance of LSTTL
+combined with true CMOS low power consumption.
+An output buffer provides high noise immunity and
+a stable output.
+All inputs are equipped with protection circuits
+
+against static discharge and transient excess volt-
+age.

@@ -1,0 +1,22 @@
+The 74HC/HCT112 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT112 are dual negative-edge triggered
+JK-type flip-flops featuring individual nJ, nK, clock (nCP),
+set (nSD) and reset (nRD) inputs.
+
+The set and reset inputs, when LOW, set or reset the
+outputs as shown in the function table regardless of the
+levels at the other inputs.
+A HIGH level at the clock (nCP) input enables the nJ and
+nK inputs and data will be accepted. The nJ and nK inputs
+control the state changes of the flip-flops as shown in the
+function table. The nJ and nK inputs must be stable one
+set-up time prior to the HIGH-to-LOW clock transition for
+predictable operation.
+Output state changes are initiated by the HIGH-to-LOW
+transition of nCP.
+Schmitt-trigger action in the clock input makes the circuit
+highly tolerant to slower clock rise and fall times.
+GND = 0 V; Tamb = 25 °C; tr = tf = 6 ns

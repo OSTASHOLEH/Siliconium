@@ -1,0 +1,4 @@
+The HC133 is an high-speed Si-gate CMOS device and is pin compatible with low power Schottky TTL (LSTTL).
+It is specified in compliance with JEDEC standard no. 7A.
+The 74HC133 provides the 13-input NAND function.
+GND = 0 V; Tamb = 25 °C; tr = tf = 6 ns

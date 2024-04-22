@@ -1,0 +1,12 @@
+The 74HC/HCT377 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT377 have eight edge-triggered, D-type
+flip-flops with individual D inputs and Q outputs. A common
+clock (CP) input loads all flip-flops simultaneously when
+the data enable (E) is LOW. The state of each D input, one
+set-up time before the LOW-to-HIGH clock transition, is
+transferred to the corresponding output (Qn) of the flip-flop.
+The E input must be stable only one set-up time prior to the
+LOW-to-HIGH transition for predictable operation.

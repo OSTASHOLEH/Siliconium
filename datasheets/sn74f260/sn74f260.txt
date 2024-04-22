@@ -1,0 +1,5 @@
+The SN74F260 contains two independent 5-input
+positive-NOR gates. It performs the Boolean
+functions Y = A + B + C + D + E in positive logic.
+The SN74F260 is characterized for operation from
+0°C to 70°C.

@@ -1,0 +1,11 @@
+The 74ALS273 has eight edge-triggered D-type flip-flops with
+individual D inputs and Q outputs. The common buffered clock (CP)
+and master reset (MR) inputs load and reset all flip-flops
+simultaneously.
+The register is fully edge-triggered. The state of each D input, one
+setup time before the Low-to-High clock transition, is transferred to
+the corresponding flip-flop’s Q output.
+All outputs will be forced Low independently of clock or data inputs
+by a Low voltage level on the MR input.
+The device is useful for applications where the true output only is
+required and the CP and MR are common to all flip-flops.

@@ -1,0 +1,81 @@
+The 74HC/HCT297 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT297 are designed to provide a simple,
+cost-effective solution to high-accuracy, digital,
+phase-locked-loop applications. These devices contain all
+the necessary circuits, with the exception of the
+divide-by-n counter, to build first order
+phase-locked-loops.
+Both EXCLUSIVE-OR (XORPD) and edge-controlled
+(ECPD) phase detectors are provided for maximum
+flexibility. The input signals for the EXCLUSIVE-OR phase
+detector must have a 50% duty factor to obtain the
+maximum lock-range.
+Proper partitioning of the loop function, with many of the
+building blocks external to the package, makes it easy for
+the designer to incorporate ripple cancellation (see Fig.7)
+or to cascade to higher order phase-locked-loops.
+The length of the up/down K-counter is digitally
+programmable according to the K-counter function table.
+With, A, B, C and D all LOW, the K-counter is disabled.
+With A HIGH and B, C and D LOW, the K-counter is only
+three stages long, which widens the bandwidth or capture
+range and shortens the lock time of the loop. When A, B,
+C and D are all programmed HIGH, the K-counter
+becomes seventeen stages long, which narrows the
+bandwidth or capture range and lengthens the lock time.
+Real-time control of loop bandwidth by manipulating the A
+to D inputs can maximize the overall performance of the
+digital phase-locked loop.
+The “297” can perform the classic first-order
+phase-locked-loop function without using analog
+
+components. The accuracy of the digital
+phase-locked-loop (DPLL) is not affected by VCC and
+temperature variations but depends solely on accuracies
+of the K-clock, I/D-clock and loop propagation delays.
+The phase detector generates an error signal waveform
+that, at zero phase error, is a 50% duty factor square wave.
+At the limits of linear operation, the phase detector output
+will be either HIGH or LOW all of the time depending on the
+direction of the phase error (φIN − φOUT). Within these limits
+the phase detector output varies linearly with the input
+phase error according to the gain kd, which is expressed in
+terms of phase detector output per cycle or phase error.
+The phase detector output can be defined to vary between
+± 1 according to the relation:
+
+The output of the phase detector will be kdφe, where the
+phase error φe = φIN − φOUT.
+EXCLUSIVE-OR phase detectors (XORPD) and
+edge-controlled phase detectors (ECPD) are commonly
+used digital types. The ECPD is more complex than the
+XORPD logic function but can be described generally as a
+circuit that changes states on one of the transitions of its
+inputs. The gain (kd) for an XORPD is 4 because its output
+remains HIGH (XORPDOUT = 1) for a phase error of 1/4
+cycle.
+Similarly, kd for the ECPD is 2 since its output remains
+HIGH for a phase error of 1/2 cycle. The type of phase
+detector will determine the zero-phase-error point, i.e., the
+phase separation of the phase detector inputs for a
+φe defined to be zero. For the basic DPLL system of
+Fig.6 φe = 0 when the phase detector output is a square
+wave.
+The XORPD inputs are 1/4 cycle out-of-phase for zero
+phase error. For the ECPD, φe = 0 when the inputs are 1/2
+cycle out-of-phase.
+The phase detector output controls the up/down input to
+the K-counter. The counter is clocked by input frequency
+Mfc, which is a multiple M of the loop centre frequency fc.
+When the K-counter recycles up, it generates a carry
+pulse. Recycling while counting down generates a borrow
+pulse. If the carry and the borrow outputs are conceptually
+combined into one output that is positive for a carry and
+negative for a borrow, and if the K-counter is considered as
+a frequency divider with the ratio Mfc/K, the output of the
+K-counter will equal the input frequency multiplied by the
+division ratio. Thus the output from the K-counter is
+(kdφeMfc) / K.

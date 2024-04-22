@@ -1,0 +1,13 @@
+These devices contain four independent 2-input
+positive-AND gates. They perform the Boolean
+functions Y = A • B or Y = A + B in positive logic.
+The open-collector outputs require pullup
+resistors to perform correctly. These outputs may
+be connected to other open-collector outputs to
+implement active-low wired-OR or active-high
+wired-AND functions. Open-collector devices are
+often used to generate higher VOH levels.
+The SN54ALS09 is characterized for operation
+over the full military temperature range of –55°C
+to 125°C. The SN74ALS09 is characterized for
+operation from 0°C to 70°C.

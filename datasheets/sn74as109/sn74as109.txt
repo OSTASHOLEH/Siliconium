@@ -1,0 +1,19 @@
+These devices contain two independent J-K
+positive-edge-triggered flip-flops. A low level at
+the preset (PRE) or clear (CLR) inputs sets or
+resets the outputs regardless of the levels of the
+other inputs. When PRE and CLR are inactive
+(high), data at the J and K inputs meeting the
+setup-time requirements are transferred to the
+outputs on the positive-going edge of the clock
+(CLK) pulse. Clock triggering occurs at a voltage
+level and is not directly related to the rise time of
+the clock pulse. Following the hold-time interval,
+data at the J and K inputs can be changed without
+affecting the levels at the outputs. These versatile
+flip-flops can perform as toggle flip-flops by
+grounding K and tying J high. They also can
+perform as D-type flip-flops if J and K are tied
+together.
+The SN54ALS109A and SN54AS109A are characterized for operation over the full military temperature range
+of –55°C to 125°C. The SN74ALS109A and SN74AS109A are characterized for operation from 0°C to 70°C.

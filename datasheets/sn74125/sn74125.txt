@@ -1,0 +1,12 @@
+These bus buffers feature three-state outputs
+that, when enabled, have the low impedance
+characteristics of a TTL output with additional
+drive capability at high logic levels to permit
+driving heavily loaded bus lines without external
+pullup resistors. When disabled, both output
+transistors are turned off, presenting a
+high-impedance state to the bus so the output will
+act neither as a significant load nor as a driver. The
+’125 and ’LS125A devices’ outputs are disabled
+when G is high. The ’126 and ’LS126A devices’
+outputs are disabled when G is low.

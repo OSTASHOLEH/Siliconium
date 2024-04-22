@@ -1,0 +1,20 @@
+The SN54ALS137A, SN74ALS137A, and
+SN74AS137 are 3-line to 8-line decoders/
+demultiplexers with latches on the three address
+inputs. When the latch-enable (LE) input is low,
+the devices act as decoders/demultiplexers.
+When LE goes from low to high, the address
+present at the select (A, B, and C) inputs is stored
+in the latches. Further address changes are
+ignored as long as LE remains high. The
+output-enable controls (G1 and G2) control the
+outputs independently of the select or
+latch-enable inputs. All of the outputs are forced
+high if G1 is low or G2 is high. These devices are
+ideally suited for implementing glitch-free
+decoders in strobed (stored-address) applications
+in bus-oriented systems.
+The SN54ALS137A is characterized for operation
+over the full military temperature range of –55°C
+to 125°C. The SN74ALS137A and SN74AS137
+are characterized for operation from 0°C to 70°C.

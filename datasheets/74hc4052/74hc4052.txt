@@ -1,0 +1,24 @@
+The 74HC4052 and 74HCT4052 are high-speed Si-gate
+CMOS devices and are pin compatible with the
+HEF4052B. They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC4052 and 74HCT4052 are dual 4-channel
+analog multiplexers or demultiplexers with common select
+logic. Each multiplexer has four independent
+inputs/outputs (pins nY0 to nY3) and a common
+input/output (pin nZ). The common channel select logics
+include two digital select inputs (pins S0 and S1) and an
+active LOW enable input (pin E). When pin E = LOW, one
+of the four switches is selected (low-impedance ON-state)
+with pins S0 and S1. When pin E = HIGH, all switches are
+in the high-impedance OFF-state, independent of pins S0
+and S1.
+VCC and GND are the supply voltage pins for the digital
+control inputs (pins S0, S1, and E). The VCC to GND
+ranges are 2.0 V to 10.0 V for 74HC4052 and
+4.5 V to 5.5 V for 74HCT4052. The analog inputs/outputs
+(pins nY0 to nY3 and nZ) can swing between VCC as a
+positive limit and VEE as a negative limit. VCC − VEE may
+not exceed 10.0 V.
+For operation as a digital multiplexer/demultiplexer, VEE is
+connected to GND (typically ground).

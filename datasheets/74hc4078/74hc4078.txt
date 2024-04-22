@@ -1,0 +1,7 @@
+The M74HC4078 is an high speed CMOS
+8-INPUT NOR/OR GATE fabricated with silicon
+gate C2MOS technology.
+
+All inputs are equipped with protection circuits
+against static discharge and transient excess
+voltage.

@@ -1,0 +1,5 @@
+The SN74F08 contains four independent 2-input
+AND gates. It performs the Boolean functions
+Y = A • B or Y = A + B in positive logic.
+The SN74F08 is characterized for operation from
+0°C to 70°C.

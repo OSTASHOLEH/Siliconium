@@ -1,0 +1,6 @@
+The 74ALS645A is an octal transceiver featuring non-inverting
+3-State bus compatible outputs in both transmit and receive
+directions. The device features an output enable (OE) input for easy
+cascading and transmit/receive (R/T) input for direction control.
+The 74ALS645A-1 is the same as the 74ALS645A except that both
+ports sink 48mA within the ±5% VCC range.

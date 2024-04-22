@@ -1,0 +1,7 @@
+These identity comparators perform comparisons
+on two 8-bit binary or BCD words. They provide
+P = Q outputs.
+The SN54F521 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F521 is characterized for
+operation from 0°C to 70°C.

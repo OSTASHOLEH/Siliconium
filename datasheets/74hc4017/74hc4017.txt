@@ -1,0 +1,24 @@
+The 74HC/HCT4017 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4017” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC/HCT4017 are 5-stage Johnson decade
+counters with 10 decoded active HIGH outputs (Q0 to Q9),
+an active LOW output from the most significant flip-flop
+(Q5-9), active HIGH and active LOW clock inputs (CP0 and
+
+CP1) and an overriding asynchronous master reset input
+(MR).
+The counter is advanced by either a LOW-to-HIGH
+transition at CP0 while CP1 is LOW or a HIGH-to-LOW
+transition at CP1 while CP0 is HIGH (see also function
+table).
+When cascading counters, the Q5-9 output, which is LOW
+while the counter is in states 5, 6, 7, 8 and 9, can be used
+to drive the CP0 input of the next counter.
+A HIGH on MR resets the counter to zero
+(Q0 = Q5-9 = HIGH; Q1 to Q9 = LOW) independent of the
+clock inputs (CP0 and CP1).
+Automatic code correction of the counter is provided by an
+internal circuit: following any illegal code the counter
+returns to a proper counting mode within 11 clock pulses.

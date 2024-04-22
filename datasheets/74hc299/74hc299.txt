@@ -1,0 +1,29 @@
+The 74HC/HCT299 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT299 contain eight edge-triggered D-type
+flip-flops and the interstage logic necessary to perform
+synchronous shift-right, shift-left, parallel load and hold
+operations. The type of operation is determined by the
+mode select inputs (S0 and S1), as shown in the mode
+select table.
+All flip-flop outputs have 3-state buffers to separate these
+outputs (I/O0 to I/O7) such, that they can serve as data
+inputs in the parallel load mode. The serial outputs (Q0 and
+Q7) are used for expansion in serial shifting of longer
+words.
+A LOW signal on the asynchronous master reset input
+(MR) overrides the Sn and clock (CP) inputs and resets the
+flip-flops. All other state changes are initiated by the rising
+edge of the clock pulse. Inputs can change when the clock
+is either state, provided that the recommended set-up and
+hold times, relative to the rising edge of CP, are observed.
+A HIGH signal on the 3-state output enable inputs (OE1 or
+OE2) disables the 3-state buffers and the I/On outputs are
+set to the high-impedance OFF-state. In this condition, the
+shift, hold, load and reset operations can still occur. The
+3-state buffers are also disabled by HIGH signals on both
+S0 and S1, when in preparation for a parallel load
+operation.

@@ -1,0 +1,8 @@
+These devices contain four independent 2-input
+positive-NOR gates. They perform the Boolean
+functions Y = A + B or Y = A • B in positive logic.
+The SN54ALS02A and SN54AS02 are
+characterized for operation over the full military
+temperature range of –55°C to 125°C. The
+SN74ALS02A and SN74AS02 are characterized
+for operation from 0°C to 70°C.

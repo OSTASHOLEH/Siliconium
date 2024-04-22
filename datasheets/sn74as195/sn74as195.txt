@@ -1,0 +1,12 @@
+This 4-bit bidirectional universal shift register features parallel (A, B, C, D) inputs, parallel (QA, QB, QC, QD, QD)
+outputs, J-K serial (J, K) inputs, shift/load control (SH/LD) input, and a direct overriding clear (CLR). The
+registers have two modes of operation:
+• Parallel (broadside) load
+• Shift (in the direction QA toward QD)
+Parallel loading is accomplished by applying the four bits of data and taking SH/LD low. The data is loaded into
+the associated flip-flops and appears at the outputs after the positive transition of the clock (CLK) input. During
+loading, serial data flow is inhibited.
+Shifting is accomplished synchronously when SH/LD is high. Serial data for this mode is entered at the J-K
+inputs. These inputs permit the first stage to perform as a J-K, D-, or T-type flip-flop as shown in the function
+table.
+The SN74AS195 is characterized for operation from 0°C to 70°C.

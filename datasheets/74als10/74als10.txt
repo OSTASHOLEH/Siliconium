@@ -1,0 +1,4 @@
+Hex Inverting Drivers with Open Collector Outputs 
+This device contains six independent drivers, each 
+of which performs the logic INVERT/Complement function. The Outputs require external pull-up resistors 
+for proper logical operations. 

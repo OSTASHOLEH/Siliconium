@@ -1,0 +1,10 @@
+The 74ALS51 is fabricated using a 2μm 40V Bipolar
+process. The device consists of two independent
+
+combinations of gates each performing the logic AND-OR-
+INVERT function. The IC integrates one 2-wide 3-input
+
+gates and one 2-wide 2-input gates each performing
+Boolean functions 1Y = (1A•1B•1C) + (1D•1E•1F) and
+2Y = (2A•2B) + (2C•2D) respectively. All inputs are
+protected against ESD and excess voltage transients.

@@ -1,0 +1,3 @@
+The 74HC/HCT151 are high-speed Si-gate CMOS devices and are pin compatible with low power Schottky TTL (LSTTL).
+They are specified in compliance with JEDEC standard no. 7A.
+GND = 0 V; Tamb = 25 °C; tr = tf = 6 ns

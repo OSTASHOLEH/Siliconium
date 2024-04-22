@@ -1,0 +1,12 @@
+The 74HC/HCT365 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT365 are hex non-inverting buffer/line
+drivers with 3-state outputs. The 3-state outputs (nY) are
+controlled by the output enable inputs (OE1, OE2).
+A HIGH on OEn causes the outputs to assume a high
+impedance OFF-state.
+The “365” is identical to the “366” but has non-inverting
+outputs.

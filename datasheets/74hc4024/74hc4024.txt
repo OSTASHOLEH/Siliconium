@@ -1,0 +1,16 @@
+The 74HC/HCT4024 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4024” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC/HCT4024 are 7-stage binary ripple counters
+with a clock input (CP), an overriding asynchronous
+master reset input (MR) and seven fully buffered parallel
+outputs (Q0 to Q6).
+
+The counter advances on the HIGH-to-LOW transition of
+CP.
+A HIGH on MR clears all counter stages and forces all
+outputs LOW, independent of the state of CP.
+Each counter stage is a static toggle flip-flop.
+Schmitt-trigger action in the clock input makes the circuit
+highly tolerant to slower clock rise and fall times.

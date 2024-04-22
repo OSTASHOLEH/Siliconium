@@ -1,0 +1,30 @@
+The 74HC/HCT161 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT161 are synchronous presettable binary
+counters which feature an internal look-ahead carry and
+can be used for high-speed counting.
+Synchronous operation is provided by having all flip-flops
+clocked simultaneously on the positive-going edge of the
+clock (CP).
+The outputs (Q0 to Q3) of the counters may be preset to a
+HIGH or LOW level. A LOW level at the parallel enable
+
+input (PE) disables the counting action and causes the
+data at the data inputs (D0 to D3) to be loaded into the
+counter on the positive-going edge of the clock (providing
+that the set-up and hold time requirements for PE are met).
+Preset takes place regardless of the levels at count enable
+inputs (CEP and CET).
+A LOW level at the master reset input (MR) sets all four
+outputs of the flip-flops (Q0 to Q3) to LOW level regardless
+of the levels at CP, PE, CET and CEP inputs (thus
+providing an asynchronous clear function).
+The look-ahead carry simplifies serial cascading of the
+counters. Both count enable inputs (CEP and CET) must
+be HIGH to count. The CET input is fed forward to enable
+the terminal count output (TC). The TC output thus
+enabled will produce a HIGH output pulse of a duration
+approximately equal to a HIGH level output of Q0. This
+pulse can be used to enable the next cascaded stage.

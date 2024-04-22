@@ -1,0 +1,21 @@
+The ′F283 is a full adder that performs the addition
+of two 4-bit binary words. The sum (Σ) outputs are
+provided for each bit and the resultant carry (C4)
+output is obtained from the fourth bit.
+The device features full internal look-ahead
+across all four bits generating the carry term C4 in
+typically 5.7 ns. This capability provides the
+system designer with partial look-ahead
+performance at the economy and reduced
+package count of a ripple-carry implementation.
+The adder logic, including the carry, is
+implemented in its true form. End-around carry
+can be accomplished without the need for logic or
+level inversion.
+The ′F283 can be used with either all-active-high
+(positive logic) or all-active-low (negative logic)
+operands.
+The SN54F283 is characterized for operation over
+the full military temperature range of –55°C to
+125°C. The SN74F283 is characterized for
+operation from 0°C to 70°C.

@@ -1,0 +1,23 @@
+The 74HC/HCT182 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT182 carry look-ahead generators accept
+up to four pairs of active LOW carry propagate (P0, P1, P2,
+P3) and carry generate (G0, G1, G2, G3) signals and an
+active HIGH carry input (Cn). The devices provide
+
+anticipated active HIGH carries (Cn+x, Cn+y, Cn+z) across
+four groups of binary adders.
+The “182” also has active LOW carry propagate (P) and
+carry generate (G) outputs which may be used for further
+levels of look-ahead.
+The logic equations provided at the outputs are:
+Cn+x = G0 + P0Cn
+Cn+y = G1 + P1G0 + P1P0Cn
+Cn+z = G2 + P2G1 + P2P1G0 + P2P1P0Cn
+
+The “182” can also be used with binary ALU’s in an active
+LOW or active HIGH input operand mode. The
+connections to and from the ALU to the carry look-ahead
+generator are identical in both cases.

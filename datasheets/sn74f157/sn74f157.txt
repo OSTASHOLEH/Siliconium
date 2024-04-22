@@ -1,0 +1,10 @@
+The ′F157A is a quadruple 2-input data
+selector/multiplexer featuring a common strobe
+(G) input. When the strobe is high, all outputs are
+low. When the strobe is low, a 4-bit word is
+selected from one of two sources and is routed to
+the four outputs. The ′F157A provides true data.
+The SN54F157A is characterized for operation
+over the full military temperature range of –55°C
+to 125°C. The SN74F157A is characterized for
+operation from 0°C to 70°C.

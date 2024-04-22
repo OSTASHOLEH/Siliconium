@@ -1,0 +1,30 @@
+The 74HC/HCT259 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT259 are high-speed 8-bit addressable
+latches designed for general purpose storage applications
+in digital systems. The “259” are multifunctional devices
+
+capable of storing single-line data in eight addressable
+latches, and also 3-to-8 decoder and demultiplexer, with
+active HIGH outputs (Q0 to Q7), functions are available.
+The “259” also incorporates an active LOW common reset
+(MR) for resetting all latches, as well as, an active LOW
+enable input (LE).
+The “259” has four modes of operation as shown in the
+mode select table. In the addressable latch mode, data on
+the data line (D) is written into the addressed latch. The
+addressed latch will follow the data input with all
+non-addressed latches remaining in their previous states.
+In the memory mode, all latches remain in their previous
+states and are unaffected by the data or address inputs.
+In the 3-to-8 decoding or demultiplexing mode, the
+addressed output follows the state of the D input with all
+other outputs in the LOW state. In the reset mode all
+outputs are LOW and unaffected by the address (A0 to A2)
+and data (D) input. When operating the “259” as an
+addressable latch, changing more than one bit of address
+could impose a transient-wrong address. Therefore, this
+should only be done while in the memory mode. The mode
+select table summarizes the operations of the “259”.

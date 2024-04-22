@@ -1,0 +1,10 @@
+These devices contain an 8-input positive-NAND
+gate and perform the following Boolean functions
+in positive logic:
+Y = A • B • C • D • E • F • G • H
+Y = A + B + C + D + E + F + G + H
+The SN54ALS30A and SN54AS30 are
+characterized for operation over the full military
+temperature range of –55°C to 125°C. The
+SN74ALS30A and SN74AS30 are characterized
+for operation from 0°C to 70°C.

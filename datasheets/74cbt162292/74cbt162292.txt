@@ -1,0 +1,12 @@
+The SN74CBT162292 is a 12-bit 1-of-2
+high-speed TTL-compatible FET multiplexer/
+demultiplexer. The low on-state resistance of the
+switch allows connections to be made with
+minimal propagation delay.
+When the select (S) input is low, port A is
+connected to port B1, and RINT is connected to
+port B2. When S is high, port A is connected to port
+B2, and RINT is connected to port B1.
+The A-port inputs/outputs include equivalent 25-Ω
+series resistors to reduce overshoot and
+undershoot.

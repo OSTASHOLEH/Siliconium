@@ -1,0 +1,15 @@
+The M54/74HC05 is a high speed CMOS HEX
+OPEN DRAIN INVERTER fabricated in silicon gate
+C2
+
+MOS technology. It has the same highspeed per-
+formance of LSTTL combined with true CMOS low
+
+power consumption.
+
+The internal circuit is composed of 3 stages includ-
+ing buffer output, which enables high noise im-
+munity and stable output. All inputs are equipped
+
+with circuits against static discharge and transient
+excess voltage.

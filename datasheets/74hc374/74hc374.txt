@@ -1,0 +1,18 @@
+The 74HC/HCT374 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT374 are octal D-type flip-flops featuring
+separate D-type inputs for each flip-flop and 3-state
+outputs for bus oriented applications. A clock (CP) and an
+output enable (OE) input are common to all flip-flops.
+The 8 flip-flops will store the state of their individual
+D-inputs that meet the set-up and hold times requirements
+on the LOW-to-HIGH CP transition.
+When OE is LOW, the contents of the 8 flip-flops are
+available at the outputs. When OE is HIGH, the outputs go
+to the high impedance OFF-state. Operation of the
+OE input does not affect the state of the flip-flops.
+The “374” is functionally identical to the “534”, but has
+non-inverting outputs.

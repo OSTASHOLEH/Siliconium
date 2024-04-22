@@ -1,0 +1,37 @@
+The 74HC/HCT194 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The functional characteristics of the 74HC/HCT194 4-bit
+bidirectional universal shift registers are indicated in the
+logic diagram and function table. The registers are fully
+synchronous.
+The “194” design has special features which increase the
+range of application. The synchronous operation of the
+device is determined by the mode select inputs (S0, S1).
+As shown in the mode select table, data can be entered
+
+and shifted from left to right (Q0 → Q1 → Q2, etc.) or, right
+to left (Q3 → Q2 → Q1, etc.) or parallel data can be
+entered, loading all 4 bits of the register simultaneously.
+When both S0 and S1 are LOW, existing data is retained in
+a hold (“do nothing”) mode. The first and last stages
+provide D-type serial data inputs (DSR, DSL) to allow
+multistage shift right or shift left data transfers without
+interfering with parallel load operation.
+Mode select and data inputs are edge-triggered,
+responding only to the LOW-to-HIGH transition of the
+clock (CP). Therefore, the only timing restriction is that the
+mode control and selected data inputs must be stable one
+set-up time prior to the positive transition of the clock
+pulse.
+The four parallel data inputs (D0 to D3) are D-type inputs.
+Data appearing on the D0 to D3 inputs, when S0 and S1 are
+HIGH, is transferred to the Q0 to Q3 outputs respectively,
+following the next LOW-to-HIGH transition of the clock.
+When LOW, the asynchronous master reset (MR)
+overrides all other input conditions and forces the Q
+outputs LOW.
+The “194” is similar in operation to the “195” universal shift
+register, with added features of shift-left without external
+connections and hold (“do nothing”) modes of operation.

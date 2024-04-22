@@ -1,0 +1,5 @@
+The 74HC/HCT27 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC/HCT27 provide the 3-input NOR function.

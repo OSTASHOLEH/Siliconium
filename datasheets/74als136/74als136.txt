@@ -1,0 +1,17 @@
+DM74ALS133
+13-Input NAND Gate
+General Description
+This device contains a single gate, which performs the
+logic NAND function.
+Features
+■ Switching specifications at 50 pF
+
+■ Switching specifications guaranteed over full tempera-
+ture and VCC range
+
+■ Advanced oxide-isolated, ion-implanted Schottky TTL
+process
+■ Functionally and pin for pin compatible with Schottky
+and low power Schottky TTL counterpart
+■ Improved AC performance over Schottky and low power
+Schottky counterparts

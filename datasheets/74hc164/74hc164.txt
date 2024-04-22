@@ -1,0 +1,13 @@
+The 74HC164; 74HCT164 are high-speed Si-gate CMOS devices and are pin compatible
+with Low power Schottky TTL (LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+The 74HC164; 74HCT164 are 8-bit edge-triggered shift registers with serial data entry
+and an output from each of the eight stages. Data is entered serially through one of two
+inputs (DSA or DSB); either input can be used as an active HIGH enable for data entry
+through the other input. Both inputs must be connected together or an unused input must
+be tied HIGH.
+Data shifts one place to the right on each LOW-to-HIGH transition of the clock (CP) input
+and enters into Q0, which is the logical AND of the two data inputs (DSA and DSB) that
+existed one set-up time prior to the rising clock edge.
+A LOW level on the master reset (MR) input overrides all other inputs and clears the
+register asynchronously, forcing all outputs LOW.

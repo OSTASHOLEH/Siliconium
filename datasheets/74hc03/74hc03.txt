@@ -1,0 +1,14 @@
+The 74HC/HCT03 are high-speed Si-gate CMOS devices
+and are pin compatible with low power Schottky TTL
+(LSTTL). They are specified in compliance with JEDEC
+standard no. 7A.
+
+The 74HC/HCT03 provide the 2-input NAND function.
+The 74HC/HCT03 have open-drain N-transistor outputs,
+which are not clamped by a diode connected to VCC. In
+the OFF-state, i.e. when one input is LOW, the output
+may be pulled to any voltage between GND and VOmax.
+This allows the device to be used as a LOW-to-HIGH or
+HIGH-to-LOW level shifter. For digital operation and
+OR-tied output applications, these devices must have a
+pull-up resistor to establish a logic HIGH level.

@@ -1,0 +1,5 @@
+The 74HC/HCT4075 are high-speed Si-gate CMOS
+devices and are pin compatible with the “4075” of the
+“4000B” series. They are specified in compliance with
+JEDEC standard no. 7A.
+The 74HC/HCT4075 provide the 3-input OR function.
