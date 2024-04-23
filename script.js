@@ -13,11 +13,11 @@ function LoadData() {
         var img_name = document.getElementById("Img_Name");
         var discription = document.getElementById("frames");
         var dtsheet =document.getElementById("link_d");
-        main_image.src = "datasheets/" + imageName + "/"+ imageName + ".png";
+        main_image.src = "datasheets/" + imageName.toLowerCase() + "/"+ imageName.toLowerCase() + ".png";
         main_image.alt = imageName;
-        discription.src = "datasheets/" + imageName + "/"+ imageName + ".txt";
+        discription.src = "datasheets/" + imageName.toLowerCase() + "/"+ imageName.toLowerCase() + ".txt";
         img_name.innerHTML = imageName.toUpperCase();
-        dtsheet.setAttribute("href","datasheets/" + imageName + "/"+ imageName.toUpperCase() + ".PDF");
+        dtsheet.setAttribute("href","datasheets/" + imageName.toLowerCase() + "/"+ imageName.toUpperCase() + ".PDF");
     }
     else{
         console.error("not loaded");
