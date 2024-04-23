@@ -8,6 +8,7 @@ body{
     background: linear-gradient(135deg, #000000 15%, #434343);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+    max-height: 100vh;
 }
 .footer{
     width: 100%;
@@ -36,6 +37,7 @@ body{
     z-index: 10;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     overflow-y: scroll;
+    overflow-x: hidden;
     font-family: sans-serif;
     
 }
@@ -47,6 +49,7 @@ body{
     display: flex;
     border-radius: 5px;
     color: #ffffff;
+    overflow-x: hidden;
 }
 .content_tile:hover{
     background-color:#EBEBEB;
@@ -90,6 +93,7 @@ background-color: rgba(0, 0, 0, 0);
 position: absolute;
 left: 0vh;
 z-index: 8;
+display: block;
 }
 .content_title{
     font-size: 30px;
@@ -200,5 +204,189 @@ z-index: 8;
     background-color: #434343;
     position: relative;
     border-color: #212121;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     
+}
+.Frame::-webkit-scrollbar{
+    display: none;
+} 
+@media (max-width: 684px){
+    .footer{
+        height: 2vh;
+    }
+    .basement{
+        height: 4vh;
+        bottom: 1px;
+    }
+    .content {
+        width: 99vw;
+        left: 0;
+        top: 5vh;
+        height: 70vh;
+        box-shadow: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .content_title {
+        font-size: 20px;
+    }
+
+    .content_discription {
+        font-size: 10px;
+        margin-top: 0vh;
+
+    }
+
+    .search-container {
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+
+    .search-bar {
+        width: 150px;
+        font-size: 1.2em;
+    }
+
+    #most_popular {
+        font-size: 25px;
+    }
+
+    .IC_name {
+        font-size: 25px;
+        margin-left: 55%;
+    }
+
+    .IC_discription {
+        margin-left: 55%;
+        width: 75vw;
+        height: fit-content;
+    }
+    .IC_photo{
+        width: 50vw;
+        height: 30vh;
+    }
+    .link{
+        left:0px;
+    }
+    .link_img{
+        margin-left: 1vw;
+    }
+}
+@media (max-width: 768px) and (min-width:685px) {
+    .content {
+        width: 99%;
+        left: 0;
+        top: 6vh;
+        height: 75vh;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .logo {
+        width: 120px;
+        height: 120px;
+        display: none;
+    }
+
+    .content_title {
+        font-size: 24px;
+    }
+
+    .content_discription {
+        font-size: 12px;
+        margin-top: 3vh;
+    }
+
+    .search-container {
+        margin-left: 40%;
+    }
+
+    .search-bar {
+        width: 150px;
+        font-size: 1.2em;
+    }
+
+    #most_popular {
+        font-size: 30px;
+    }
+
+    .IC_name {
+        font-size: 45px;
+        margin-left: 45%;
+    }
+
+    .IC_discription {
+        margin-left: 45%;
+    }
+    .IC_photo{
+        width: 40vw;
+        height: 40vh;
+    }
+    .link_img{
+        margin-left: 1vw;
+    }
+}
+
+/* Стилі для екранів з шириною від 769px до 1200px (планшети) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .content {
+        width: 80%;
+        left: 17%;
+        top: 6vh;
+        height: 78vh;
+    }
+
+    .sidebar {
+        width:17%;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .content_title {
+        font-size: 28px;
+    }
+
+    .content_discription {
+        font-size: 14px;
+        margin-top: 4vh;
+    }
+
+    .search-container {
+        margin-left: 45%;
+    }
+
+    .search-bar {
+        width: 180px;
+        font-size: 1.4em;
+    }
+
+    #most_popular {
+        font-size: 35px;
+    }
+
+    .IC_name {
+        font-size: 50px;
+        margin-left: 55%;
+    }
+
+    .IC_discription {
+        margin-left: 55%;
+    }
+    .IC_photo{
+        width: 35vw;
+        height: 45vh;
+    }
 }
