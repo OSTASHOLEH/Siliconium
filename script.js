@@ -23,3 +23,15 @@ function LoadData() {
         console.error("not loaded");
     }
 }
+function MailTo(){
+    var email = 'siliconiumweb@gmail.com';
+    var subject = 'Propositions'; 
+    var mailtoLink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject);
+    window.location.href = mailtoLink;
+}
+function Instagram(){
+    window.location.href="https://www.instagram.com/siliconiumki?igsh=bGNtanE5c2Q0NDJw&utm_source=qr";
+}
+function Facebook(){
+    window.location.href="https://www.facebook.com/profile.php?id=61558570901258&mibextid=rS40aB7S9Ucbxw6v";
+}
