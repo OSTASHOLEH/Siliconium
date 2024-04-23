@@ -5,7 +5,7 @@ body{
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background: linear-gradient(160deg, #3a5a40 31%, #F5F5F5);
+    background: linear-gradient(135deg, #000000 15%, #434343);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
@@ -25,13 +25,13 @@ body{
 }
 .content{
     width: 88%;
-    height: 90vh;
+    height: 85vh;
     position: absolute;
     left: 11%;
     top:5.7vh;
-    background-color:#dad7cd;
+    background-color:#2b2b2b;
     border: 2px solid;
-    border-color: #a3b18a;
+    border-color: #212121;
     display: block;
     z-index: 10;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -42,11 +42,11 @@ body{
 .content_tile{
     width: auto;
     height: fit-content;
-    background-color: #a3b18a;
+    background-color: #212121;
     margin: 30px;
     display: flex;
     border-radius: 5px;
-    color: #333333;
+    color: #ffffff;
 }
 .content_tile:hover{
     background-color:#EBEBEB;
@@ -106,10 +106,10 @@ z-index: 8;
 }
 .logo{
     position: absolute;
-    width: 100px;
-    height: 100px;
-    top:5vh;
-    left: 25px;
+    width: 175px;
+    height: 175px;
+    top:0.5vh;
+    left: 0px;
     z-index: 9;
     background-image: url(images/logo.png);
     background-size: cover;
@@ -140,7 +140,7 @@ z-index: 8;
     font-family: monospace;
     cursor: default;
     font-size: 40px;
-    color: #344e41;
+    color: #ffffff;
 }
 .IC_photo{
     width: 30vw;
@@ -196,7 +196,7 @@ z-index: 8;
     height: 45vh;
     font-family: 'Courier New', Courier, monospace;
     color: #344e41;
-    background-color: #a3b18a;
+    background-color: #212121;
     position: relative;
     
 }
