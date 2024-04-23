@@ -144,10 +144,11 @@ z-index: 8;
 }
 .IC_photo{
     width: 30vw;
+    height: 70vh;
     
 }
 .IC_name{
-    color: #344e41;
+    color: #ffffff;
     font-family: monospace;
     font-size: 70px;
     font-weight: bold;
@@ -192,11 +193,12 @@ z-index: 8;
     margin-left: 17vw;
 }
 .Frame{
-    width: 32vw;
+    width: 40vw;
     height: 45vh;
     font-family: 'Courier New', Courier, monospace;
-    color: #344e41;
-    background-color: #212121;
+    color: #ffffff;
+    background-color: #434343;
     position: relative;
+    border-color: #212121;
     
 }
