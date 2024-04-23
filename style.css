@@ -193,7 +193,7 @@ z-index: 8;
     margin-left: 17vw;
 }
 .Frame{
-    width: 40vw;
+    width: 35vw auto;
     height: 45vh;
     font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
