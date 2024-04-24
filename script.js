@@ -18,7 +18,7 @@ function LoadData() {
         discription.src = "datasheets/" + imageName.toLowerCase() + "/"+ imageName.toLowerCase() + ".txt";
         img_name.innerHTML = imageName.toUpperCase();
         dtsheet.setAttribute("href","datasheets/" + imageName.toLowerCase() + "/"+ imageName.toUpperCase() + ".PDF");
-        if(!"datasheets/" + imageName.toLowerCase() + "/"+ imageName.toUpperCase() + ".PDF"){
+        if(!dtsheet.href){
             console.error("wrong");
             window.alert("Error occuped. Try to use other name of IC");
         }
