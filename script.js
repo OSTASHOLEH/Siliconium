@@ -21,6 +21,7 @@ function LoadData() {
     }
     else{
         console.error("not loaded");
+        alert("incorect data");
     }
 }
 function MailTo(){
