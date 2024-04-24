@@ -41,3 +41,35 @@ function Instagram(){
 function Facebook(){
     window.location.href="https://www.facebook.com/profile.php?id=61558570901258&mibextid=rS40aB7S9Ucbxw6v";
 }
+document.addEventListener('DOMContentLoaded', function() {
+    var checkbox = document.getElementById('menu');
+    var menu = document.querySelector('.sidebar');
+    var logo = document.querySelector('.logo');
+
+    checkbox.addEventListener('change', function() {
+        if (this.checked && window.innerWidth <= 684) {
+            openMenu();
+        } else if (!this.checked && window.innerWidth <= 684) {
+            closeMenu();
+        }
+    });
+
+    function openMenu() {
+        menu.style.display = 'block';
+        menu.style.background='#333333';
+        menu.style.width='40vw';
+        menu.style.zIndex='100';
+        logo.style.display='block'
+        logo.style.zIndex="101";
+        logo.style.width="20vw";
+        logo.style.height="20vw";
+        logo.style.marginTop='3vh';
+        logo.style.marginLeft='5vw';
+
+    }
+
+    function closeMenu() {
+        menu.style.display = 'none';
+        logo.style.display = 'none';
+    }
+});
