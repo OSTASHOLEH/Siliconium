@@ -110,15 +110,14 @@ display: block;
 }
 .logo{
     position: absolute;
-    width: 175px;
-    height: 175px;
-    top:0.5vh;
-    left: 0px;
+    width: 9.5vw;
+    height: 9.5vw;
+    top:2vh;
+    left: 0.5vw;
     z-index: 9;
     background-image: url(images/logo.png);
     background-size: cover;
     background-position: center;
-    filter: saturate(50%);
 }
 .side_text{
     margin-top: 10px;
