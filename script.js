@@ -21,8 +21,8 @@ function LoadData() {
     }
     else{
         window.alert("incorect data");
+        window.location.href="index.html";
         console.error("not loaded");
-    
     }
 }
 function MailTo(){
