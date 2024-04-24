@@ -20,8 +20,9 @@ function LoadData() {
         dtsheet.setAttribute("href","datasheets/" + imageName.toLowerCase() + "/"+ imageName.toUpperCase() + ".PDF");
     }
     else{
-        console.error("not loaded");
         alert("incorect data");
+        console.error("not loaded");
+    
     }
 }
 function MailTo(){
