@@ -173,6 +173,13 @@ display: block;
     position: relative;
     overflow-x: scroll;
 }
+.link:link{
+    color: #a3b18a;
+}
+.link:visited{
+    color: #a3b18a;
+    text-decoration: underline;
+}
 .link{
     margin-left: 1vw;
     z-index: 13;
