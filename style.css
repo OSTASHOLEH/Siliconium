@@ -334,7 +334,6 @@ display: block;
         margin-bottom: 2vh;
         margin-left: 0vw;
         display: block;
-        z-index: 102;
     }
 }
 @media (max-width: 768px) and (min-width:685px) {
