@@ -41,6 +41,9 @@ function Instagram(){
 function Facebook(){
     window.location.href="https://www.facebook.com/profile.php?id=61558570901258&mibextid=rS40aB7S9Ucbxw6v";
 }
+function BMB(){
+    window.location.href="https://www.buymeacoffee.com/siliconium";
+}
 document.addEventListener('DOMContentLoaded', function() {
     var checkbox = document.getElementById('menu');
     var menu = document.querySelector('.sidebar');
