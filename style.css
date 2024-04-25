@@ -176,7 +176,10 @@ display: block;
 .link{
     margin-left: 1vw;
     z-index: 13;
-    position: relative;
+    position: absolute;
+}
+.link_box{
+    margin-top: 10%;
 }
 .IC_name,
 .IC_discription {
@@ -196,13 +199,14 @@ display: block;
     position: relative;
     z-index: 13;
     margin-left: 12vw;
+    margin-bottom: 0vw;
 }
 .Frame{
     width: 100%;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
-    background-color: #434343;
+    background-color: #6a6a6a;
     position: relative;
     border-color: #212121;
     -ms-overflow-style: none;
@@ -320,7 +324,7 @@ display: block;
         height: 30vh;
     }
     .link{
-        left:0px;
+        margin-left: 2%;
     }
     .link_img{
         margin-left: 1vw;
