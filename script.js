@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', function() {
         menu.style.display = 'block';
         menu.style.background='#333333';
         menu.style.width='40vw';
-        menu.style.zIndex='100';
+        menu.style.zIndex='101';
         logo.style.display='block'
-        logo.style.zIndex="101";
+        logo.style.zIndex="102";
         logo.style.width="20vw";
         logo.style.height="20vw";
         logo.style.marginTop='3vh';
